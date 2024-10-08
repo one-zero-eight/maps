@@ -6,7 +6,8 @@
 !/deploy/
 !/pyproject.toml
 !/poetry.lock
-!logging.yaml
+!/logging.yaml
+!/static/
 
 # And ignore cache files in the code
 __pycache__
