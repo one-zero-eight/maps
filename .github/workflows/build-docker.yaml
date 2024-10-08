@@ -14,7 +14,7 @@ on:
 env:
   # Use GitHub Container Registry
   REGISTRY: ghcr.io
-  IMAGE_NAME: one-zero-eight/room-booking
+  IMAGE_NAME: one-zero-eight/maps
 
 jobs:
   build-and-push-image:
@@ -62,7 +62,7 @@ jobs:
     runs-on: self-hosted
     environment:
       name: staging
-      url: https://api.innohassle.ru/room-booking/staging-v0
+      url: https://api.innohassle.ru/maps/staging-v0
     concurrency:
       group: staging
       cancel-in-progress: false
@@ -87,7 +87,7 @@ jobs:
     runs-on: self-hosted
     environment:
       name: production
-      url: https://api.innohassle.ru/room-booking/v0
+      url: https://api.innohassle.ru/maps/v0
     concurrency:
       group: production
       cancel-in-progress: false
