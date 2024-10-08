@@ -1,0 +1,8 @@
+services:
+  api:
+    build: .
+    volumes:
+      - "./settings.yaml:/code/settings.yaml:ro" # Read-only settings file
+    restart: always
+    ports:
+      - "8000:8000"

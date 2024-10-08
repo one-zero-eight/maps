@@ -1,0 +1,134 @@
+$schema: http://json-schema.org/draft-07/schema#
+$defs:
+  Accounts:
+    additionalProperties: false
+    description: InNoHassle-Accounts integration settings
+    properties:
+      api_url:
+        default: https://api.innohassle.ru/accounts/v0
+        description: URL of the Accounts API
+        title: Api Url
+        type: string
+      well_known_url:
+        default: https://api.innohassle.ru/accounts/v0/.well-known
+        description: URL of the well-known endpoint for the Accounts API
+        title: Well Known Url
+        type: string
+    title: Accounts
+    type: object
+  Area:
+    properties:
+      svg_polygon_id:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        title: Svg Polygon Id
+      title:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        title: Title
+      legend_id:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        title: Legend Id
+    title: Area
+    type: object
+  Environment:
+    enum:
+    - development
+    - production
+    title: Environment
+    type: string
+  LegendEntry:
+    properties:
+      legend_id:
+        title: Legend Id
+        type: string
+      color:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        title: Color
+      legend:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        title: Legend
+    required:
+    - legend_id
+    title: LegendEntry
+    type: object
+  Scene:
+    properties:
+      scene_id:
+        title: Scene Id
+        type: string
+      title:
+        title: Title
+        type: string
+      svg_file:
+        title: Svg File
+        type: string
+      legend:
+        default: []
+        items:
+          $ref: '#/$defs/LegendEntry'
+        title: Legend
+        type: array
+      areas:
+        default: []
+        items:
+          $ref: '#/$defs/Area'
+        title: Areas
+        type: array
+    required:
+    - scene_id
+    - title
+    - svg_file
+    title: Scene
+    type: object
+additionalProperties: false
+description: Settings for the application.
+properties:
+  $schema:
+    default: null
+    title: $Schema
+    type: string
+  environment:
+    $ref: '#/$defs/Environment'
+    default: development
+    description: App environment flag
+  app_root_path:
+    default: ''
+    description: Prefix for the API path (e.g. "/api/v0")
+    title: App Root Path
+    type: string
+  scenes:
+    default: []
+    description: List of scenes
+    items:
+      $ref: '#/$defs/Scene'
+    title: Scenes
+    type: array
+  cors_allow_origin_regex:
+    default: .*
+    description: 'Allowed origins for CORS: from which domains requests to the API
+      are allowed.
+
+      Specify as a regex: `https://.*.innohassle.ru`'
+    title: Cors Allow Origin Regex
+    type: string
+  accounts:
+    $ref: '#/$defs/Accounts'
+    default:
+      api_url: https://api.innohassle.ru/accounts/v0
+      well_known_url: https://api.innohassle.ru/accounts/v0/.well-known
+title: Settings
+type: object
