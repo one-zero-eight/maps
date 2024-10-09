@@ -2,13 +2,12 @@ __all__ = ["app"]
 
 from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
-from starlette.middleware.cors import CORSMiddleware
 from fastapi_swagger import patch_fastapi
+from starlette.middleware.cors import CORSMiddleware
 
 import src.api.logging_  # noqa: F401
-from src.api.docs import generate_unique_operation_id, custom_openapi
+from src.api.docs import custom_openapi, generate_unique_operation_id
 from src.api.lifespan import lifespan
-from src.api.routers import routers
 from src.config import settings
 
 # App definition
@@ -37,5 +36,6 @@ app.add_middleware(
 
 app.mount("/static", StaticFiles(directory="static"), name="static")
 
-for router in routers:
-    app.include_router(router)
+from src.modules.scenes.routes import router as router_bookings  # noqa: E402
+
+app.include_router(router_bookings)
