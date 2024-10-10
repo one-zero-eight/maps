@@ -130,6 +130,12 @@ properties:
     description: Path to mount static files
     title: Static Mount Path
     type: string
+  static_directory:
+    default: static
+    description: Path to the directory with static files
+    format: path
+    title: Static Directory
+    type: string
   accounts:
     $ref: '#/$defs/Accounts'
     default:

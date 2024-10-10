@@ -79,6 +79,8 @@ class Settings(SettingBaseModel):
     """
     static_mount_path: str = "/static"
     "Path to mount static files"
+    static_directory: Path = Path("static")
+    "Path to the directory with static files"
     accounts: Accounts = Accounts()
     "InNoHassle-Accounts integration settings"
 
