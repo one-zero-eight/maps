@@ -75,3 +75,9 @@ scenes:
       - legend_id: "Elevator"
         color: "#17b69c"
       - legend_id: "504B — Library"
+  - scene_id: "university-floor-0"
+    svg_file: "university-floor-0.svg"
+    title: "Floor -1"
+    legend:
+      - legend_id: "Elevator"
+        color: "#17b69c"
