@@ -77,6 +77,8 @@ class Settings(SettingBaseModel):
     Allowed origins for CORS: from which domains requests to the API are allowed.
     Specify as a regex: `https://.*.innohassle.ru`
     """
+    static_mount_path: str = "/static"
+    "Path to mount static files"
     accounts: Accounts = Accounts()
     "InNoHassle-Accounts integration settings"
 

@@ -125,6 +125,11 @@ properties:
       Specify as a regex: `https://.*.innohassle.ru`'
     title: Cors Allow Origin Regex
     type: string
+  static_mount_path:
+    default: /static
+    description: Path to mount static files
+    title: Static Mount Path
+    type: string
   accounts:
     $ref: '#/$defs/Accounts'
     default:

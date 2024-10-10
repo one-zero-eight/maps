@@ -34,7 +34,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-app.mount(f"{settings.app_root_path}/static", StaticFiles(directory="static"), name="static")
+app.mount(settings.static_mount_path, StaticFiles(directory="static"), name="static")
 
 from src.modules.scenes.routes import router as router_bookings  # noqa: E402
 
