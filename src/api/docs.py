@@ -12,11 +12,23 @@ from src.config import settings
 VERSION = "0.1.0"
 
 # Info for OpenAPI specification
-TITLE = "Maps API"
-SUMMARY = "API for viewing the maps in InNoHassle."
+TITLE = "InNoHassle Maps API"
+SUMMARY = "View maps of Innopolis University in InNoHassle."
 
 DESCRIPTION = """
 ### About this project
+
+This is the API for Maps project in InNoHassle ecosystem developed by one-zero-eight community.
+
+Using this API you can get maps images of Innopolis University and some metadata.
+
+Backend is developed using FastAPI framework on Python.
+
+Note: API is unstable. Endpoints and models may change in the future.
+
+Useful links:
+- [Maps API source code](https://github.com/one-zero-eight/maps)
+- [InNoHassle Website](https://innohassle.ru/)
 """
 
 CONTACT_INFO = {
