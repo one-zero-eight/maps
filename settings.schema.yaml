@@ -36,6 +36,12 @@ $defs:
         - type: 'null'
         default: null
         title: Legend Id
+      description:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        title: Description
     title: Area
     type: object
   Environment:
@@ -131,7 +137,6 @@ properties:
     title: Static Mount Path
     type: string
   static_directory:
-    default: static
     description: Path to the directory with static files
     format: path
     title: Static Directory

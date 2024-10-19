@@ -6,6 +6,9 @@ scenes:
   - scene_id: "university-floor-1"
     svg_file: "university-floor-1.svg"
     title: "Floor 1"
+    areas:
+      - title: "108"
+      - title: "107"
     legend:
       - legend_id: "Reception"
         color: "#ffe302"
@@ -43,6 +46,8 @@ scenes:
   - scene_id: "university-floor-3"
     svg_file: "university-floor-3.svg"
     title: "Floor 3"
+    areas:
+      - title: "314"
     legend:
       - legend_id: "Elevator"
         color: "#9681f2"

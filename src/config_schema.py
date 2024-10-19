@@ -36,6 +36,8 @@ class Area(BaseModel):
     "Title of the area"
     legend_id: str | None = None
     "ID of the legend (if any)"
+    description: str | None = None
+    "Description of the area"
 
 
 class Scene(BaseModel):
