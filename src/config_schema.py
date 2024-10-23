@@ -14,7 +14,7 @@ class SettingBaseModel(BaseModel):
     model_config = ConfigDict(use_attribute_docstrings=True, extra="forbid")
 
 
-class LegendEntry(BaseModel):
+class LegendEntry(SettingBaseModel):
     legend_id: str
     "ID of the legend"
     color: str | None = None
@@ -29,7 +29,7 @@ class LegendEntry(BaseModel):
         return self
 
 
-class Area(BaseModel):
+class Area(SettingBaseModel):
     svg_polygon_id: str | None = None
     "ID of the polygon in the SVG"
     title: str | None = None
@@ -40,7 +40,7 @@ class Area(BaseModel):
     "Description of the area"
 
 
-class Scene(BaseModel):
+class Scene(SettingBaseModel):
     scene_id: str
     "ID of the scene"
     title: str

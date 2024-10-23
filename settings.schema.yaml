@@ -17,30 +17,35 @@ $defs:
     title: Accounts
     type: object
   Area:
+    additionalProperties: false
     properties:
       svg_polygon_id:
         anyOf:
         - type: string
         - type: 'null'
         default: null
+        description: ID of the polygon in the SVG
         title: Svg Polygon Id
       title:
         anyOf:
         - type: string
         - type: 'null'
         default: null
+        description: Title of the area
         title: Title
       legend_id:
         anyOf:
         - type: string
         - type: 'null'
         default: null
+        description: ID of the legend (if any)
         title: Legend Id
       description:
         anyOf:
         - type: string
         - type: 'null'
         default: null
+        description: Description of the area
         title: Description
     title: Area
     type: object
@@ -51,8 +56,10 @@ $defs:
     title: Environment
     type: string
   LegendEntry:
+    additionalProperties: false
     properties:
       legend_id:
+        description: ID of the legend
         title: Legend Id
         type: string
       color:
@@ -60,36 +67,44 @@ $defs:
         - type: string
         - type: 'null'
         default: null
+        description: Color of the legend
         title: Color
       legend:
         anyOf:
         - type: string
         - type: 'null'
         default: null
+        description: Description of the legend (may contain multiple lines)
         title: Legend
     required:
     - legend_id
     title: LegendEntry
     type: object
   Scene:
+    additionalProperties: false
     properties:
       scene_id:
+        description: ID of the scene
         title: Scene Id
         type: string
       title:
+        description: Title of the scene
         title: Title
         type: string
       svg_file:
+        description: Path to the SVG file in /static
         title: Svg File
         type: string
       legend:
         default: []
+        description: Legend of the scene
         items:
           $ref: '#/$defs/LegendEntry'
         title: Legend
         type: array
       areas:
         default: []
+        description: Areas of the scene
         items:
           $ref: '#/$defs/Area'
         title: Areas
