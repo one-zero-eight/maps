@@ -9,7 +9,7 @@ from pydantic import BaseModel
 from rapidfuzz import fuzz, utils
 
 from src.api.logging_ import logger
-from src.config_schema import Scene, Area
+from src.config_schema import Area, Scene
 from src.modules.scenes.repository import scene_repository
 
 router = APIRouter(tags=["Scenes"])

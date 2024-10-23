@@ -137,6 +137,7 @@ properties:
     title: Static Mount Path
     type: string
   static_directory:
+    default: static
     description: Path to the directory with static files
     format: path
     title: Static Directory

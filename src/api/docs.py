@@ -5,6 +5,7 @@ from types import ModuleType
 from fastapi import FastAPI
 from fastapi.openapi.utils import get_openapi
 from fastapi.routing import APIRoute
+
 import src.modules.scenes.routes
 from src.config import settings
 
