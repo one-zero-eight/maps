@@ -39,9 +39,9 @@ def prepare_for_search(area: Area) -> str | None:
 def search_areas(query: str = Query(..., min_length=1)) -> list[SearchResult]:
     all_scenes = scene_repository.get_all()
     result = []
-    logger.info(f"Searching areas for {query}")
+    logger.info(f"Searching areas for `{query}`")
     for scene in all_scenes:
-        logger.info(scene.areas)
+        logger.debug(scene.areas)
         concatenated_fields = [prepare_for_search(area) for area in scene.areas]
 
         if not concatenated_fields:
@@ -49,9 +49,11 @@ def search_areas(query: str = Query(..., min_length=1)) -> list[SearchResult]:
 
         for index, area in enumerate(scene.areas):
             if area.title and query.lower().strip() == area.title.lower().strip():
-                return [SearchResult(scene_id=scene.scene_id, matching_area_indexes=[index])]
+                result = SearchResult(scene_id=scene.scene_id, matching_area_indexes=[index])
+                logger.info(f"Exact match: {area.title} -> {result}")
+                return [result]
         matches = [fuzz.token_ratio(query, doc, processor=utils.default_process) for doc in concatenated_fields]
-        logger.info(matches)
+        logger.debug(matches)
 
         matching_indexes = []
         for index, score in enumerate(matches):
@@ -65,5 +67,5 @@ def search_areas(query: str = Query(..., min_length=1)) -> list[SearchResult]:
                     matching_area_indexes=matching_indexes,
                 )
             )
-
+    logger.info(f"Results: {result}")
     return result
