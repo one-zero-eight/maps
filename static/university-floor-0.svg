@@ -1923,11 +1923,10 @@
   </g>
   <g
      id="g2"
-     inkscape:label="Selections"
-     style="opacity:0.0">
+     inkscape:label="Selections">
     <path
        id="garage-0"
-       style="display:inline;fill:#cccccc;stroke-width:1.04209;opacity:1"
+       style="opacity:0"
        class="st0"
        d="M 2180.3702,417.4621 V 44.601543 h 112.219 l -0.01,-44.6015414899999 75.161,0 0.01,44.6015414899999 h 47.8202 V 417.4621 Z"
        sodipodi:nodetypes="ccccccccc" />
@@ -1935,7 +1934,7 @@
        class="st0"
        points="322.6,1076.6 590.4,760.6 891.2,1013.7 869.3,1040 828.3,1005.5 804,1033.6 844.7,1067.9 732.4,1199.7 522.4,1022.4 412.3,1151.8 "
        id="105a"
-       style="fill:#cccccc"
+       style="opacity:0"
        transform="matrix(1.0420921,0,0,1.0420921,-107.75142,-169.96522)" />
   </g>
 </svg>
