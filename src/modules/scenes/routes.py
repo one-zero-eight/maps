@@ -17,8 +17,11 @@ router = APIRouter(tags=["Scenes"])
 
 class SearchResult(BaseModel):
     scene_id: str
-    matching_area_indexes: list[int]
-    matching_areas: list[Area]
+    "Id of corresponding scene"
+    area: Area
+    "Corresponding area object"
+    area_index: int
+    "Index of area in `scene.areas`"
 
 
 @router.get("/scenes/")
@@ -50,30 +53,15 @@ def search_areas(query: str = Query(..., min_length=1)) -> list[SearchResult]:
 
         for index, area in enumerate(scene.areas):
             if area.title and query.lower().strip() == area.title.lower().strip():
-                result = SearchResult(
-                    scene_id=scene.scene_id,
-                    matching_area_indexes=[index],
-                    matching_areas=[area],
-                )
+                result = SearchResult(scene_id=scene.scene_id, area_index=index, area=area)
                 logger.info(f"Exact match: {area.title} -> {result}")
                 return [result]
         matches = [fuzz.token_ratio(query, doc, processor=utils.default_process) for doc in concatenated_fields]
         logger.debug(matches)
 
-        matching_indexes = []
-        matching_areas = []
         for index, score in enumerate(matches):
             if score >= 60:
-                matching_indexes.append(index)
-                matching_areas.append(scene.areas[index])
+                result.append(SearchResult(scene_id=scene.scene_id, area_index=index, area=scene.areas[index]))
 
-        if matching_indexes:
-            result.append(
-                SearchResult(
-                    scene_id=scene.scene_id,
-                    matching_area_indexes=matching_indexes,
-                    matching_areas=matching_areas,
-                )
-            )
     logger.info(f"Results: {result}")
     return result
