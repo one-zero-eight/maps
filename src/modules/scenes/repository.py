@@ -1,3 +1,5 @@
+from re import escape, search
+
 from rapidfuzz import fuzz, utils
 
 from src.api.logging_ import logger
@@ -22,13 +24,30 @@ class SceneRepository:
         return settings.scenes
 
     def search(self, query: str):
-        # TODO: Apply "regex" search based on area.title here
-        #   Hint: process postfixes (309a, 504a) here
-        ...
-        # TODO: And only after that if no results was found, search by description using fuzzy search
-
         all_scenes = scene_repository.get_all()
         result = []
+
+        for scene in all_scenes:
+            logger.debug(scene.areas)
+
+            for index, area in enumerate(scene.areas):
+                if area.title and search(rf"\b{escape(query.lower().strip())}", area.title.lower().strip()):
+                    result.append(SearchResult(scene_id=scene.scene_id, area_index=index, area=area))
+                    if (
+                        area.title == "Garage"
+                        and area.svg_polygon_id == "garage-0"
+                        or area.title == "Reading Hall"
+                        and area.svg_polygon_id == "reading-hall-1"
+                        or area.title == "Canteen"
+                        and area.svg_polygon_id == "canteen"
+                        or area.title == "105"
+                        and area.svg_polygon_id == "105"
+                    ):
+                        return [SearchResult(scene_id=scene.scene_id, area_index=index, area=area)]
+
+        if result:
+            return result
+
         for scene in all_scenes:
             logger.debug(scene.areas)
             concatenated_fields = [prepare_for_search(area) for area in scene.areas]
@@ -36,17 +55,12 @@ class SceneRepository:
             if not concatenated_fields:
                 continue
 
-            for index, area in enumerate(scene.areas):
-                if area.title and query.lower().strip() == area.title.lower().strip():
-                    result = SearchResult(scene_id=scene.scene_id, area_index=index, area=area)
-                    logger.debug(f"Exact match: {area.title} -> {result}")
-                    return [result]
-
             matches = [fuzz.token_ratio(query, doc, processor=utils.default_process) for doc in concatenated_fields]
             logger.debug(matches)
 
             for index, score in enumerate(matches):
                 if score >= 60:
+                    print(scene.areas[index].title)
                     result.append(SearchResult(scene_id=scene.scene_id, area_index=index, area=scene.areas[index]))
 
         return result

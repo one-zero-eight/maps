@@ -17,7 +17,7 @@ cases = [
     ("504a", [("university-floor-5", "504a")]),
     ("309a", [("university-floor-3", "309a")]),
     ("411", [("university-floor-4", "411"), ("university-floor-4", "411a")]),  # exact match + postfix
-    ("309", [("university-floor-3", "309"), ("university-floor-4", "309a")]),  # exact match + postfix
+    ("309", [("university-floor-3", "309"), ("university-floor-3", "309a")]),  # exact match + postfix
     ("450", [("university-floor-4", "450"), ("university-floor-4", "450a")]),  # exact match + postfix
     ("504", [("university-floor-5", "504a"), ("university-floor-5", "504b"), ("university-floor-5", "504c")]),
     # 105 and 105a case is tricky, we have 105 on Floor 1 and 105a on Floor -1
