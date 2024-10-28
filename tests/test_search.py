@@ -1,12 +1,8 @@
-from datetime import date, datetime
-from functools import partial
 from unittest import TestCase
 
 import pytest
 
 from src.modules.scenes.repository import scene_repository
-
-ydate = partial(date, year=datetime.today().year)
 
 # [
 #   (query, [(scene-id, svg-polygon-id), ...]),
