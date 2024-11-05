@@ -141,7 +141,7 @@ scenes:
     title: "Floor 3"
     legend:
       - legend_id: "Elevator"
-        color: "#9681f2"
+        color: "#17b69c"
       - legend_id: "Dining area"
         color: "#9adbf8"
       - legend_id: "Meeting rooms"
