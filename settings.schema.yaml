@@ -61,6 +61,13 @@ $defs:
         description: Priority for multi-floor areas
         title: Prioritized
         type: boolean
+      room_booking_id:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        description: ID of the room in Room Booking API (if any)
+        title: Room Booking Id
     title: Area
     type: object
   Environment:

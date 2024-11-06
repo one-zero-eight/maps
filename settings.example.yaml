@@ -21,14 +21,15 @@ scenes:
         color: "#2d4485"
       - legend_id: "Storage"
         color: "#ffcb7d"
-      - legend_id: "Psychologist"
-        color: "#f89aef"
       - legend_id: "Medical point — 1st floor of 4th campus"
     areas:
       - title: "1.1"
         svg_polygon_id: "1.1"
       - title: "1.2"
         svg_polygon_id: "1.2"
+      - title: "100"
+        svg_polygon_id: "100"
+        description: "Applicant reception"
       - title: "101"
         svg_polygon_id: "101"
       - title: "102"
@@ -40,15 +41,19 @@ scenes:
       - title: "105"
         svg_polygon_id: "105"
         prioritized: true
+        description: "Big lecture room «West»"
       - title: "106"
         svg_polygon_id: "106"
         prioritized: true
+        description: "Big lecture room «South»"
       - title: "107"
         svg_polygon_id: "107"
         prioritized: true
+        description: "Big lecture room «North»"
       - title: "108"
         svg_polygon_id: "108"
         prioritized: true
+        description: "Big lecture room «East»"
       - title: "109"
         svg_polygon_id: "109"
       - title: "110"
@@ -61,25 +66,40 @@ scenes:
         svg_polygon_id: "113"
       - title: "114"
         svg_polygon_id: "114"
+      - title: "115"
+        svg_polygon_id: "115"
+      - title: "116"
+        svg_polygon_id: "116"
+      - title: "117"
+        svg_polygon_id: "117"
+        description: "Startup Studio"
       - title: Canteen
         ru_title: Столовая
         svg_polygon_id: canteen
         prioritized: true
+        description: |
+          Usual working hours: 8:00 — 20:00 (every day)
+          Telegram channel: https://t.me/matrixfood
       - title: Cava
         svg_polygon_id: cava
+        description: |
+          Telegram channel: https://t.me/coffeecava
       - title: Coffee-in
         svg_polygon_id: coffee-in
       - title: Coffee++
         svg_polygon_id: coffee-plus-plus
+        description: |
+          Telegram channel: https://t.me/+wU93hOSoLU5mNWNi
+      - title: Wrap & Go
+        svg_polygon_id: wrap-n-go
       - title: Garage
         ru_title: Гараж
         svg_polygon_id: garage-1
+        description: "Entrance is on the -1 floor"
       - title: Reading Hall
         ru_title: Читалка
         svg_polygon_id: reading-hall-1
         prioritized: true
-      - title: Wrap & Go
-        svg_polygon_id: wrap-n-go
   - scene_id: "university-floor-2"
     svg_file: "university-floor-2.svg"
     title: "Floor 2"
@@ -133,6 +153,7 @@ scenes:
         svg_polygon_id: "210a"
       - title: "211"
         svg_polygon_id: "211"
+        description: "Personnel and Corporate Culture Development Center"
       - title: "212"
         svg_polygon_id: "212"
       - title: "212a"
@@ -142,9 +163,11 @@ scenes:
       - title: Canteen
         ru_title: Столовая
         svg_polygon_id: canteen-2
+        description: "This is the canteen for events. The main canteen entrance is on the 1st floor."
       - title: Garage
         ru_title: Гараж
         svg_polygon_id: garage-2
+        description: "Entrance is on the -1 floor"
       - title: Reading Hall
         ru_title: Читалка
         svg_polygon_id: reading-hall-2
@@ -161,26 +184,35 @@ scenes:
     areas:
       - title: "3.1"
         svg_polygon_id: "3.1"
+        room_booking_id: "3.1"
       - title: "3.2"
         svg_polygon_id: "3.2"
+        room_booking_id: "3.2"
       - title: "3.3"
         svg_polygon_id: "3.3"
+        room_booking_id: "3.3"
       - title: "3.4"
         svg_polygon_id: "3.4"
+        room_booking_id: "3.4"
       - title: "3.5"
         svg_polygon_id: "3.5"
+        room_booking_id: "3.5"
       - title: "300"
         svg_polygon_id: "300"
       - title: "301"
         svg_polygon_id: "301"
+        room_booking_id: "301"
       - title: "302"
         svg_polygon_id: "302"
       - title: "303"
         svg_polygon_id: "303"
+        room_booking_id: "303"
       - title: "304"
         svg_polygon_id: "304"
+        room_booking_id: "304"
       - title: "305"
         svg_polygon_id: "305"
+        room_booking_id: "305"
       - title: "306"
         svg_polygon_id: "306"
       - title: "306a"
@@ -193,6 +225,8 @@ scenes:
         svg_polygon_id: "309"
       - title: "309a"
         svg_polygon_id: "309a"
+        room_booking_id: "309A"
+        description: "Clubs room"
       - title: "310"
         svg_polygon_id: "310"
       - title: "310a"
@@ -203,12 +237,15 @@ scenes:
         svg_polygon_id: "311a"
       - title: "312"
         svg_polygon_id: "312"
+        room_booking_id: "312"
       - title: "312a"
         svg_polygon_id: "312a"
       - title: "313"
         svg_polygon_id: "313"
+        room_booking_id: "313"
       - title: "314"
         svg_polygon_id: "314"
+        room_booking_id: "314"
       - title: "315"
         svg_polygon_id: "315"
       - title: "316"
@@ -217,10 +254,16 @@ scenes:
         svg_polygon_id: "317"
       - title: "318"
         svg_polygon_id: "318"
+        room_booking_id: "318"
       - title: "319"
         svg_polygon_id: "319"
+        description: |
+          Student Affairs Office
+          Usual working hours: 9:00 — 18:00 (Mon — Fri)
+          Telegram bot: https://t.me/StudentAffairs_bot
       - title: "320"
         svg_polygon_id: "320"
+        room_booking_id: "320"
       - title: "321"
         svg_polygon_id: "321"
       - title: "322"
@@ -228,6 +271,7 @@ scenes:
       - title: Canteen
         ru_title: Столовая
         svg_polygon_id: canteen-3
+        description: "This is the canteen for events. The main canteen entrance is on the 1st floor."
       - title: Reading Hall
         ru_title: Читалка
         svg_polygon_id: reading-hall-3
@@ -334,8 +378,10 @@ scenes:
         svg_polygon_id: "422"
       - title: "423"
         svg_polygon_id: "423"
+        description: "Rector's office"
       - title: "424"
         svg_polygon_id: "424"
+        description: "Director's office"
       - title: "425"
         svg_polygon_id: "425"
       - title: "426"
@@ -354,6 +400,7 @@ scenes:
         svg_polygon_id: "432"
       - title: "433"
         svg_polygon_id: "433"
+        description: "Recruitment sector"
       - title: "434"
         svg_polygon_id: "434"
       - title: "435"
@@ -398,6 +445,7 @@ scenes:
         svg_polygon_id: "450a"
       - title: "451"
         svg_polygon_id: "451"
+        description: "IT department"
       - title: "452"
         svg_polygon_id: "452"
       - title: "453"
@@ -406,8 +454,10 @@ scenes:
         svg_polygon_id: "454"
       - title: "455"
         svg_polygon_id: "455"
+        description: "Human resources department"
       - title: "456"
         svg_polygon_id: "456"
+        description: "IT equipment storage"
       - title: "457"
         svg_polygon_id: "457"
       - title: "458"
@@ -473,6 +523,10 @@ scenes:
           - Иванов Владимир Владимирович
       - title: "476"
         svg_polygon_id: "476"
+        description: |
+          Department of Education
+          Usual working hours: 9:00 — 18:00 (Mon — Fri)
+          Telegram bot: https://t.me/education_support_bot
 
   - scene_id: "university-floor-5"
     svg_file: "university-floor-5.svg"
@@ -490,10 +544,12 @@ scenes:
         svg_polygon_id: "502b"
       - title: "503"
         svg_polygon_id: "503"
+        description: "InnoCyberPolygon"
       - title: "504a"
         svg_polygon_id: "504a"
       - title: "504b"
         svg_polygon_id: "504b"
+        description: "Library"
       - title: "504c"
         svg_polygon_id: "504c"
       - title: "505"
@@ -536,6 +592,7 @@ scenes:
     areas:
       - title: "105a"
         svg_polygon_id: "105a"
+        description: "Robotics lab"
       - title: Garage
         ru_title: Гараж
         svg_polygon_id: garage-0

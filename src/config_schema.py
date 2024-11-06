@@ -44,6 +44,8 @@ class Area(SettingBaseModel):
     "List of people for this area"
     prioritized: bool = False
     "Priority for multi-floor areas"
+    room_booking_id: str | None = None
+    "ID of the room in Room Booking API (if any)"
 
 
 class Scene(SettingBaseModel):
