@@ -39,12 +39,16 @@ scenes:
         svg_polygon_id: "104"
       - title: "105"
         svg_polygon_id: "105"
+        prioritized: true
       - title: "106"
         svg_polygon_id: "106"
+        prioritized: true
       - title: "107"
         svg_polygon_id: "107"
+        prioritized: true
       - title: "108"
         svg_polygon_id: "108"
+        prioritized: true
       - title: "109"
         svg_polygon_id: "109"
       - title: "110"
@@ -58,17 +62,22 @@ scenes:
       - title: "114"
         svg_polygon_id: "114"
       - title: Canteen
+        ru_title: Столовая
         svg_polygon_id: canteen
+        prioritized: true
       - title: Cava
         svg_polygon_id: cava
       - title: Coffee-in
         svg_polygon_id: coffee-in
       - title: Coffee++
         svg_polygon_id: coffee-plus-plus
-      - title: Garage (entrance is on -1 floor)
+      - title: Garage
+        ru_title: Гараж
         svg_polygon_id: garage-1
       - title: Reading Hall
+        ru_title: Читалка
         svg_polygon_id: reading-hall-1
+        prioritized: true
       - title: Wrap & Go
         svg_polygon_id: wrap-n-go
   - scene_id: "university-floor-2"
@@ -130,11 +139,14 @@ scenes:
         svg_polygon_id: "212a"
       - title: "213"
         svg_polygon_id: "213"
-      - title: canteen-2
+      - title: Canteen
+        ru_title: Столовая
         svg_polygon_id: canteen-2
-      - title: garage-2
+      - title: Garage
+        ru_title: Гараж
         svg_polygon_id: garage-2
-      - title: reading-hall-2
+      - title: Reading Hall
+        ru_title: Читалка
         svg_polygon_id: reading-hall-2
   - scene_id: "university-floor-3"
     svg_file: "university-floor-3.svg"
@@ -214,9 +226,14 @@ scenes:
       - title: "322"
         svg_polygon_id: "322"
       - title: Canteen
+        ru_title: Столовая
         svg_polygon_id: canteen-3
       - title: Reading Hall
+        ru_title: Читалка
         svg_polygon_id: reading-hall-3
+      - title: Green Stairs
+        ru_title: Зелёные Ступеньки
+        svg_polygon_id: green-stairs
   - scene_id: "university-floor-4"
     svg_file: "university-floor-4.svg"
     title: "Floor 4"
@@ -246,28 +263,53 @@ scenes:
         svg_polygon_id: "4.5"
       - title: "401"
         svg_polygon_id: "401"
+        people:
+          - Leplat Valentin
+          - Леплат Валентин
+          - Maloletov Alexander Vasilievich
+          - Малолетов Александр Васильевич
       - title: "402"
         svg_polygon_id: "402"
       - title: "403"
         svg_polygon_id: "403"
       - title: "404"
         svg_polygon_id: "404"
+        people:
+          - Zouev Eugene Alexandrovich
+          - Зуев Евгений Александрович
       - title: "405"
         svg_polygon_id: "405"
+        people:
+          - Gelvanovsky Georgy Vladislavovich
+          - Гелвановский Георгий Владиславович
+          - Saduov Ruslan Talgatovich
+          - Садуов Руслан Талгатович
       - title: "406"
         svg_polygon_id: "406"
       - title: "407"
         svg_polygon_id: "407"
+        people:
+          - Mazzara Manuel
+          - Маццара Мануэль
       - title: "408"
         svg_polygon_id: "408"
       - title: "409"
         svg_polygon_id: "409"
       - title: "410"
         svg_polygon_id: "410"
+        people:
+          - Lukmanov Rustam Abubakirovich
+          - Лукманов Рустам Абубакирович
       - title: "411"
         svg_polygon_id: "411"
+        people:
+          - Kholodov Yaroslav Alexandrovich
+          - Холодов Ярослав Александрович
       - title: "411a"
         svg_polygon_id: "411a"
+        people:
+          - Mayorga Sergio
+          - Майорга Сергей Татарин
       - title: "412"
         svg_polygon_id: "412"
       - title: "413"
@@ -382,12 +424,26 @@ scenes:
         svg_polygon_id: "463"
       - title: "464"
         svg_polygon_id: "464"
+        people:
+          - Frolov Andrey Nikolaevich
+          - Фролов Андрей Николаевич
+          - Konyukhov Ivan Vladimirovich
+          - Конюхов Иван Владимирович
       - title: "465"
         svg_polygon_id: "465"
+        people:
+          - Maslovskaya Anna Gennadievna
+          - Масловская Анна Геннадьевна
       - title: "466"
         svg_polygon_id: "466"
+        people:
+          - Khan Adil Mehmood
+          - Хан Адил Мехмуд
       - title: "467"
         svg_polygon_id: "467"
+        people:
+          - Burmyakov Artem Sergeevich
+          - Бурмяков Артем Сергеевич
       - title: "468"
         svg_polygon_id: "468"
       - title: "469"
@@ -396,14 +452,25 @@ scenes:
         svg_polygon_id: "470"
       - title: "471"
         svg_polygon_id: "471"
+        people:
+          - Zlatanov Nikola
+          - Златанов Никола
       - title: "472"
         svg_polygon_id: "472"
       - title: "473"
         svg_polygon_id: "473"
       - title: "474"
         svg_polygon_id: "474"
+        people:
+          - Succi Giancarlo
+          - Суччи Джанкарло
+          - Paolo Ciancarini
+          - Паоло Чанкарини
       - title: "475"
         svg_polygon_id: "475"
+        people:
+          - Ivanov Vladimir Vladimirovich
+          - Иванов Владимир Владимирович
       - title: "476"
         svg_polygon_id: "476"
 
@@ -433,8 +500,14 @@ scenes:
         svg_polygon_id: "505"
       - title: "506"
         svg_polygon_id: "506"
+        people:
+          - Reza Mohammad Bahrami
+          - Реза Мохамммад Бахрами
       - title: "507"
         svg_polygon_id: "507"
+        people:
+          - Shilov Nikolay Vyacheslavovich
+          - Шилов Николай Вячеславович
       - title: "508"
         svg_polygon_id: "508"
       - title: "509"
@@ -464,4 +537,6 @@ scenes:
       - title: "105a"
         svg_polygon_id: "105a"
       - title: Garage
+        ru_title: Гараж
         svg_polygon_id: garage-0
+        prioritized: true

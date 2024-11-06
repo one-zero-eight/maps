@@ -34,10 +34,16 @@ class Area(SettingBaseModel):
     "ID of the polygon in the SVG"
     title: str | None = None
     "Title of the area"
+    ru_title: str | None = None
+    "Title in Russian"
     legend_id: str | None = None
     "ID of the legend (if any)"
     description: str | None = None
     "Description of the area"
+    people: list[str] = []
+    "List of people for this area"
+    prioritized: bool = False
+    "Priority for multi-floor areas"
 
 
 class Scene(SettingBaseModel):

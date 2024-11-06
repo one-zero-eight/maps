@@ -28,6 +28,13 @@ $defs:
         default: null
         description: Title of the area
         title: Title
+      ru_title:
+        anyOf:
+        - type: string
+        - type: 'null'
+        default: null
+        description: Title in Russian
+        title: Ru Title
       legend_id:
         anyOf:
         - type: string
@@ -42,6 +49,18 @@ $defs:
         default: null
         description: Description of the area
         title: Description
+      people:
+        default: []
+        description: List of people for this area
+        items:
+          type: string
+        title: People
+        type: array
+      prioritized:
+        default: false
+        description: Priority for multi-floor areas
+        title: Prioritized
+        type: boolean
     title: Area
     type: object
   Environment:
@@ -147,6 +166,7 @@ properties:
     title: Static Mount Path
     type: string
   static_directory:
+    default: static
     description: Path to the directory with static files
     format: path
     title: Static Directory

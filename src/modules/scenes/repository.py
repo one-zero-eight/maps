@@ -31,22 +31,26 @@ class SceneRepository:
             logger.debug(scene.areas)
 
             for index, area in enumerate(scene.areas):
-                if area.title and search(rf"\b{escape(query.lower().strip())}", area.title.lower().strip()):
-                    result.append(SearchResult(scene_id=scene.scene_id, area_index=index, area=area))
-                    if (
-                        area.title == "Garage"
-                        and area.svg_polygon_id == "garage-0"
-                        or area.title == "Reading Hall"
-                        and area.svg_polygon_id == "reading-hall-1"
-                        or area.title == "Canteen"
-                        and area.svg_polygon_id == "canteen"
-                        or area.title == "105"
-                        and area.svg_polygon_id == "105"
-                    ):
-                        return [SearchResult(scene_id=scene.scene_id, area_index=index, area=area)]
+                for title in filter(None, (area.title, area.ru_title)):
+                    if search(rf"\b{escape(query.lower().strip())}", title.lower().strip()):
+                        if area.prioritized:
+                            return [SearchResult(scene_id=scene.scene_id, area_index=index, area=area)]
+
+                        result.append(SearchResult(scene_id=scene.scene_id, area_index=index, area=area))
 
         if result:
             return result
+
+        people_results: list[tuple[float, Scene, int]] = []
+        for scene in all_scenes:
+            for index, area in enumerate(scene.areas):
+                for person in area.people:
+                    score = fuzz.partial_ratio(query.lower().strip(), person.lower())
+                    people_results.append((score, scene, index))
+        if people_results:
+            score, scene, index = max(people_results, key=lambda x: x[0])
+            if score > 70:
+                return [SearchResult(scene_id=scene.scene_id, area_index=index, area=scene.areas[index])]
 
         for scene in all_scenes:
             logger.debug(scene.areas)

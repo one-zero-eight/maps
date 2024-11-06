@@ -24,18 +24,42 @@ cases = [
     ("105", [("university-floor-1", "105")]),
     ("105a", [("university-floor-0", "105a")]),
     #
-    ("Canteen", [("university-floor-1", "canteen")]),
-    ("Reading Hall", [("university-floor-1", "reading-hall-1")]),
-    ("Garage", [("university-floor-0", "garage-0")]),  # Garage should be Floor -1
+    (("Canteen", "Столовая"), [("university-floor-1", "canteen")]),
+    (("Reading Hall", "Читалка"), [("university-floor-1", "reading-hall-1")]),
+    (("Green Stairs", "Зелёные Ступеньки"), [("university-floor-3", "green-stairs")]),
+    (("Garage", "Гараж"), [("university-floor-0", "garage-0")]),  # Garage should be Floor -1
+    # People
+    (("Reza", "Реза"), [("university-floor-5", "506")]),
+    (("Frolov", "Фролов"), [("university-floor-4", "464")]),
+    (("Konyukhov", "Конюхов"), [("university-floor-4", "464")]),
+    (("Maslovskaya", "Масловская"), [("university-floor-4", "465")]),
+    (("Khan", "Хан"), [("university-floor-4", "466")]),
+    (("Burmyakov", "Бурмяков"), [("university-floor-4", "467")]),
+    (("Zlatanov", "Златанов"), [("university-floor-4", "471")]),
+    (("Succi", "Суччи"), [("university-floor-4", "474")]),
+    (("Ciancarini", "Чанкарини"), [("university-floor-4", "474")]),
+    (("Ivanov", "Иванов"), [("university-floor-4", "475")]),
+    (("Leplat", "Леплат"), [("university-floor-4", "401")]),
+    (("Maloletov", "Малолетов"), [("university-floor-4", "401")]),
+    (("Zouev", "Зуев"), [("university-floor-4", "404")]),
+    (("Saduov", "Садуов"), [("university-floor-4", "405")]),
+    (("Mazzara", "Маццара"), [("university-floor-4", "407")]),
+    (("Gelvanovsky", "Гелвановский"), [("university-floor-4", "405")]),
+    (("Lukmanov", "Лукманов"), [("university-floor-4", "410")]),
+    (("Kholodov", "Холодов"), [("university-floor-4", "411")]),
+    (("Mayorga", "Майорга"), [("university-floor-4", "411a")]),
 ]
 
 
-@pytest.mark.parametrize("input_, desired", cases, ids=[x for x, _ in cases])
-def test_location_parser(input_: str, desired: list[tuple[str, str]]):
+@pytest.mark.parametrize("inputs, desired", cases, ids=[str(x) for x, _ in cases])
+def test_location_parser(inputs, desired: list[tuple[str, str]]):
     # desired - list of svg_polygon_id
-    results = scene_repository.search(input_)
+    if isinstance(inputs, str):
+        inputs = (inputs,)
     _ = TestCase()
     _.maxDiff = None
 
-    to_compare = {(result.scene_id, result.area.svg_polygon_id) for result in results}
-    _.assertSetEqual(to_compare, set(desired))
+    for input_ in inputs:
+        results = scene_repository.search(input_)
+        to_compare = {(result.scene_id, result.area.svg_polygon_id) for result in results}
+        _.assertSetEqual(set(desired), to_compare)
