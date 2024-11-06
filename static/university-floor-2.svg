@@ -32,6 +32,11 @@
      inkscape:window-maximized="1"
      inkscape:current-layer="svg127" />
   <path
+     d="m 1736.1973,417.46221 v -91.08798 l -47.6615,0.048 V 7.35223 l 116.0815,-2e-5 32.1998,38.765766 323.0508,2.516281 V 417.46321 Z"
+     id="path12-3"
+     style="fill:#9adbf8;fill-opacity:1"
+     sodipodi:nodetypes="ccccccccc" />
+  <path
      style="fill:#cfcfcf;stroke-width:2.175;stroke-linecap:square"
      d="m 317.96227,1211.6342 147.8565,-175.598 34.2985,29.007 55.79448,-66.21765 -5.68935,-22.93583 173.94248,-206.17042 64.06937,53.1984 -28.386,33.68152 5.7687,4.96358 -18.89968,22.99845 33.93103,28.89 -303.17703,359.82695 5.461,6.126 -33.425,43.022 z"
      id="path2" />
@@ -525,8 +530,9 @@
      d="m 1117.4743,879.51223 -178.15303,-149.979 -1.365,1.62 178.15403,149.98 1.364,-1.62 z"
      id="path34-5" />
   <path
-     d="m 664.90927,1241.9772 34.106,-40.249 -1.616,-1.37 -34.106,40.25 z m -16.275,17.743 -0.812,-0.68 -0.679,0.81 0.808,0.68 z m 83.933,69.308 -83.251,-70.118 -1.365,1.62 83.251,70.118 z m -83.122,-68.627 5.508,-6.567 -1.623,-1.361 -5.508,6.567 1.623,1.36 z M 2160.9283,426.14723 v -380.033 h -2.119 v 380.033 z m -53.383,20.55 h -31.988 v 2.118 h 31.988 z m 52.324,1.059 h 1.058 v -1.06 h -1.059 v 1.06 z m 1.058,57.407 v -57.407 h -2.118 v 57.407 z m -1.059,-58.466 h -33.47 v 2.118 h 33.47 z"
-     id="path35-7" />
+     d="m 664.90927,1241.9772 34.106,-40.249 -1.616,-1.37 -34.106,40.25 z m -16.275,17.743 -0.812,-0.68 -0.679,0.81 0.808,0.68 z m 83.933,69.308 -83.251,-70.118 -1.365,1.62 83.251,70.118 z m -83.122,-68.627 5.508,-6.567 -1.623,-1.361 -5.508,6.567 1.623,1.36 z M 2160.9283,426.14723 v -380.033 h -2.119 v 380.033 z m -53.3833,20.55 h -31.9877 v 2.118 h 31.988 z m 52.3243,1.059 h 1.058 v -1.06 h -1.059 v 1.06 z m 1.058,57.407 v -57.407 h -2.118 v 57.407 z m -1.059,-58.466 h -33.4698 l -2e-4,2.118 h 33.47 z"
+     id="path35-7"
+     sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccc" />
   <path
      d="m 1769.4543,504.73923 v -87.276 h -2.118 v 87.276 z"
      id="path42" />
@@ -740,7 +746,122 @@
      d="m 895.63427,859.77523 -0.813,-0.679 -0.676,0.81 0.807,0.68 z m 14.228,-18.685 -15.04,18.006 1.625,1.358 15.04,-18.006 z m -14.91,19.495 139.17603,117.145 1.364,-1.62 -139.17603,-117.145 z m 47.674,-560.433 12.499,-14.828 -1.62,-1.365 -12.498,14.829 1.62,1.365 z m 115.02403,-77.745 24.785,-29.445 -1.62,-1.364 -24.785,29.445 z m -34.914,39.568 -0.81,-0.683 -0.684,0.81 0.811,0.683 z m 23.34,-29.281 -24.15,28.598 1.619,1.367 24.15,-28.598 -1.62,-1.367 z m -24.023,30.091 57.831,48.722 1.365,-1.62 -57.831,-48.722 z m 76.31,-103.339 v 11.863 h 2.119 v -11.863 z m 0,-152.094 v 130.279 h 2.119 V 7.35223 Z m 80.496,126.042 h -1.058 v 1.06 h 1.059 v -1.06 z m -1.057,-126.042 v 126.042 h 2.118 V 7.35223 Z m 1.059,127.101 h 24.15 v -2.118 h -24.15 z"
      id="path81-1" />
   <path
-     d="m 1152.3813,131.27523 h 26.48 v -2.118 h -26.48 z m -67.789,-1.059 v -1.059 h -0.492 l -0.317,0.376 0.81,0.683 z m -92.18603,110.838 92.99603,-110.154 -1.62,-1.367 -92.99503,110.154 z m 92.18603,-109.779 h 14.829 v -2.118 h -14.829 z m 14.829,0 h 30.504 v -2.118 h -30.504 z m 703.079,287.247 h 357.366 v -2.118 h -357.366 v 2.119 z m -547.379,-70.967 -0.683,0.81 0.49,0.413 0.593,-0.242 -0.4,-0.98 z m 121.382,69.906 -1.05,0.144 0.126,0.915 h 0.924 v -1.06 z m -300.006,-219.075 177.941,149.98 1.365,-1.62 -177.941,-149.98 z m 179.024,150.15 a 87.04,87.04 0 0 1 33.07,-6.488 v -2.119 a 89.157,89.157 0 0 0 -33.87,6.646 l 0.8,1.96 z m 33.07,-6.488 c 44.374,0 81.002,32.86 86.862,75.557 l 2.099,-0.288 c -6.003,-43.733 -43.516,-77.388 -88.961,-77.388 z m 87.912,76.472 h 404.394 v -2.118 h -404.394 z m -174.765,-374.841 h 22.666 v -1.059 h -22.666 v 1.06 z m 0,4.237 h 22.666 v -1.059 h -22.666 v 1.06 z m 0,4.027 h 22.666 v -1.06 h -22.666 z m 0,4.237 h 22.666 v -1.06 h -22.666 z m 0,4.236 h 22.666 v -1.06 h -22.666 z m 0,4.023 h 22.666 v -1.059 h -22.666 v 1.06 z m 0,4.237 h 22.666 v -1.06 h -22.666 z m 0,4.026 h 22.666 v -1.058 h -22.666 v 1.059 z m 0,4.238 h 22.666 v -1.06 h -22.666 z m 0,4.022 h 22.666 v -1.059 h -22.666 v 1.06 z m 0,4.237 h 22.666 v -1.06 h -22.666 z m 0,4.237 h 22.666 v -1.06 h -22.666 z m -22.879,-45.757 h 22.879 v -1.059 h -22.879 v 1.06 z m 0,4.237 h 22.879 v -1.059 h -22.879 v 1.06 z m 0,4.027 h 22.879 v -1.06 h -22.879 z m 0,4.237 h 22.879 v -1.06 h -22.879 z m 0,4.236 h 22.879 v -1.06 h -22.879 z m 0,4.023 h 22.879 v -1.059 h -22.879 v 1.06 z m 0,4.237 h 22.879 v -1.06 h -22.879 z m 0,4.026 h 22.879 v -1.058 h -22.879 v 1.059 z m 0,4.238 h 22.879 v -1.06 h -22.879 z m 0,4.022 h 22.879 v -1.059 h -22.879 v 1.06 z m 0,4.237 h 22.879 v -1.06 h -22.879 z m 0,4.237 h 22.879 v -1.06 h -22.879 z"
+     d="m 1178.8593,89.43623 h 22.879 v -1.06 h -22.879 z"
+     id="path170" />
+  <path
+     d="m 1178.8593,85.19923 h 22.879 v -1.06 h -22.879 z"
+     id="path169" />
+  <path
+     d="m 1178.8593,80.96223 h 22.879 v -1.059 h -22.879 v 1.06 z"
+     id="path168" />
+  <path
+     d="m 1178.8593,76.94023 h 22.879 v -1.06 h -22.879 z"
+     id="path163" />
+  <path
+     d="m 1178.8593,72.70223 h 22.879 v -1.058 h -22.879 v 1.059 z"
+     id="path131" />
+  <path
+     d="m 1178.8593,68.67623 h 22.879 v -1.06 h -22.879 z"
+     id="path130" />
+  <path
+     d="m 1178.8593,64.43923 h 22.879 v -1.059 h -22.879 v 1.06 z"
+     id="path118" />
+  <path
+     d="m 1178.8593,60.41623 h 22.879 v -1.06 h -22.879 z"
+     id="path116" />
+  <path
+     d="m 1178.8593,56.18023 h 22.879 v -1.06 h -22.879 z"
+     id="path115" />
+  <path
+     d="m 1178.8593,51.94323 h 22.879 v -1.06 h -22.879 z"
+     id="path114" />
+  <path
+     d="m 1178.8593,47.91623 h 22.879 v -1.059 h -22.879 v 1.06 z"
+     id="path113" />
+  <path
+     d="m 1178.8593,43.67923 h 22.879 v -1.059 h -22.879 v 1.06 z"
+     id="path112" />
+  <path
+     d="m 1201.7383,89.43623 h 22.666 v -1.06 h -22.666 z"
+     id="path111" />
+  <path
+     d="m 1201.7383,85.19923 h 22.666 v -1.06 h -22.666 z"
+     id="path110" />
+  <path
+     d="m 1201.7383,80.96223 h 22.666 v -1.059 h -22.666 v 1.06 z"
+     id="path109" />
+  <path
+     d="m 1201.7383,76.94023 h 22.666 v -1.06 h -22.666 z"
+     id="path108" />
+  <path
+     d="m 1201.7383,72.70223 h 22.666 v -1.058 h -22.666 v 1.059 z"
+     id="path54" />
+  <path
+     d="m 1201.7383,68.67623 h 22.666 v -1.06 h -22.666 z"
+     id="path53" />
+  <path
+     d="m 1201.7383,64.43923 h 22.666 v -1.059 h -22.666 v 1.06 z"
+     id="path52" />
+  <path
+     d="m 1201.7383,60.41623 h 22.666 v -1.06 h -22.666 z"
+     id="path51" />
+  <path
+     d="m 1201.7383,56.18023 h 22.666 v -1.06 h -22.666 z"
+     id="path50" />
+  <path
+     d="m 1201.7383,51.94323 h 22.666 v -1.06 h -22.666 z"
+     id="path49" />
+  <path
+     d="m 1201.7383,47.91623 h 22.666 v -1.059 h -22.666 v 1.06 z"
+     id="path48" />
+  <path
+     d="m 1201.7383,43.67923 h 22.666 v -1.059 h -22.666 v 1.06 z"
+     id="path47" />
+  <path
+     d="m 1376.5033,418.52023 h 404.394 v -2.118 h -404.394 z"
+     id="path46" />
+  <path
+     d="m 1288.5913,342.04823 c 44.374,0 81.002,32.86 86.862,75.557 l 2.099,-0.288 c -6.003,-43.733 -43.516,-77.388 -88.961,-77.388 z"
+     id="path45" />
+  <path
+     d="m 1255.5213,348.53623 c 10.4954,-4.29642 21.7293,-6.50039 33.07,-6.488 v -2.119 c -11.6151,-0.0121 -23.1207,2.24557 -33.87,6.646 l 0.8,1.96 z"
+     id="path44" />
+  <path
+     d="m 1076.4973,198.38623 177.941,149.98 1.365,-1.62 -177.941,-149.98 z"
+     id="path43" />
+  <path
+     d="m 1376.5033,417.46123 -1.05,0.144 0.126,0.915 h 0.924 v -1.06 z"
+     id="path37" />
+  <path
+     d="m 1255.1213,347.55523 -0.683,0.81 0.49,0.413 0.593,-0.242 -0.4,-0.98 z"
+     id="path36" />
+  <path
+     d="m 2107.545,416.40423 h -305.0447 v 2.119 -0.001 h 305.0447"
+     id="path35" />
+  <path
+     d="M 2126.3985,416.40423 H 2107.545"
+     id="path34" />
+  <path
+     d="m 2126.3985,418.52223 h 33.4678 v -2.118 h -33.4678"
+     id="path33" />
+  <path
+     d="m 2107.545,418.52223 h 18.8535"
+     id="path32" />
+  <path
+     d="m 1099.4213,131.27523 h 30.504 v -2.118 h -30.504 z"
+     id="path31" />
+  <path
+     d="m 1084.5923,131.27523 h 14.829 v -2.118 h -14.829 z"
+     id="path30" />
+  <path
+     id="path25"
+     d="m 1083.7822,129.5332 -20.8989,24.7544 1.6197,1.3674 -9.836,11.65066 30.7353,-36.40576 z m -30.4555,36.07618 -62.54008,74.07714 1.62012,1.36817 62.10356,-73.56153 -1.6202,-1.36523 z"
+     sodipodi:nodetypes="cccccccccccc" />
+  <path
+     d="m 1084.5923,130.21623 v -1.059 h -0.492 l -0.317,0.376 0.81,0.683 z"
+     id="path24" />
+  <path
+     d="m 1152.3813,131.27523 h 26.48 v -2.118 h -26.48 z"
      id="path82-5" />
   <path
      d="m 1201.2093,43.15023 v 45.756 h 1.058 v -45.756 h -1.059 z m 9.635,22.243 0.23,0.478 0.285,-0.355 z m 1.06,-4.448 0.476,-0.23 -0.992,0.107 0.515,0.123 z m 3.177,6.567 -0.477,0.23 0.994,-0.118 z m 1.059,-4.872 -0.223,-0.48 -0.294,0.367 z m -10.786,5.984 5.72,-2.753 -0.46,-0.955 -5.719,2.754 0.46,0.954 z m 6.005,-3.108 1.06,-4.448 -1.03,-0.246 -1.06,4.449 z m 0.068,-4.34 3.177,6.566 0.954,-0.46 -3.178,-6.568 z m 4.171,6.448 1.06,-4.872 -1.035,-0.225 -1.06,4.872 z m 0.765,-4.504 5.932,-2.754 -0.446,-0.96 -5.932,2.753 0.446,0.96 z"
@@ -791,8 +912,9 @@
      d="m 2387.5883,46.11823 v 459.047 h 8.474 v -459.047 z"
      id="path93" />
   <path
-     d="m 1836.8173,50.35523 h 555.008 v -8.474 h -555.008 z"
-     id="path92" />
+     d="m 1926.8173,50.35523 h 465.008 v -8.474 h -465.008 z"
+     id="path92"
+     sodipodi:nodetypes="ccccc" />
   <path
      d="m 1801.3593,10.05923 32.198,38.766 6.519,-5.414 -32.2,-38.766 z"
      id="path91" />
@@ -845,9 +967,6 @@
      d="m 2391.8253,46.11823 h 4.237 v -4.237 h -4.237 z"
      id="path75" />
   <path
-     d="m 1836.8173,46.11823 -3.26,2.707 1.271,1.53 h 1.989 z"
-     id="path74" />
-  <path
      d="m 1804.6183,7.35223 3.259,-2.707 -1.27,-1.53 h -1.99 v 4.237 z"
      id="path73" />
   <path
@@ -875,11 +994,11 @@
      d="m 1600.8343,400.09223 v 17.37 h 2.118 v -17.37 z"
      id="path66" />
   <path
-     d="m 1687.4763,7.35223 v 295.722 h 2.119 V 7.35223 Z"
-     id="path65" />
-  <path
      d="m 1654.8533,326.37423 v 3.813 h 2.119 v -3.813 z"
      id="path64" />
+  <path
+     id="path65"
+     d="M 1687.4766 7.3520508 L 1687.4766 150.71777 L 1689.5947 150.71777 L 1689.5947 7.3520508 L 1687.4766 7.3520508 z M 1687.4766 172.32129 L 1687.4766 303.07471 L 1689.5947 303.07471 L 1689.5947 172.32129 L 1687.4766 172.32129 z " />
   <path
      d="m 1654.8533,265.15323 v 33.258 h 2.119 v -33.258 z"
      id="path63" />
@@ -982,6 +1101,10 @@
   <path
      d="m 1002.3633,399.00523 14.405,11.862 1.347,-1.635 -14.405,-11.863 z"
      id="path200" />
+  <path
+     style="fill:#000000;stroke-width:2.1;stroke-linecap:square"
+     d="m 868.40618,889.85662 50.32964,42.45091 -1.36612,1.61887 -50.83275,-42.87473 z"
+     id="path3" />
   <g
      id="g1629"
      inkscape:label="Labels"
@@ -995,7 +1118,7 @@
        id="text1611"><tspan
          sodipodi:role="line"
          id="tspan1611"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99975"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto,sans-serif;-inkscape-font-specification:Roboto;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99975"
          x="607.4903"
          y="793.05414">105 «West»</tspan></text>
     <text
@@ -1006,7 +1129,7 @@
        id="text1612"><tspan
          sodipodi:role="line"
          id="tspan1612"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99975"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto,sans-serif;-inkscape-font-specification:Roboto;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99975"
          x="943.33417"
          y="1000.9376">106 «South»</tspan></text>
     <text
@@ -1017,7 +1140,7 @@
        id="text1614"><tspan
          sodipodi:role="line"
          id="tspan1614"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99975"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto,sans-serif;-inkscape-font-specification:Roboto;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99975"
          x="1180.4167"
          y="714.55713">108 «East»</tspan></text>
     <text
@@ -1028,7 +1151,7 @@
        id="text1615"><tspan
          sodipodi:role="line"
          id="tspan1615"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99975"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto,sans-serif;-inkscape-font-specification:Roboto;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99975"
          x="894.21295"
          y="430.1131">107 «North»</tspan></text>
     <text
@@ -1039,7 +1162,7 @@
        id="text1618"><tspan
          sodipodi:role="line"
          id="tspan1618"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99975"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto,sans-serif;-inkscape-font-specification:Roboto;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99975"
          x="1559.1322"
          y="350.76395">Reading Hall</tspan></text>
     <text
@@ -1050,7 +1173,7 @@
        id="text1619"><tspan
          sodipodi:role="line"
          id="tspan1619"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99975"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto,sans-serif;-inkscape-font-specification:Roboto;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99975"
          x="1889.4556"
          y="181.89304">Canteen</tspan></text>
     <text
@@ -1061,12 +1184,12 @@
        id="text1620"><tspan
          sodipodi:role="line"
          id="tspan1620"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99975"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto,sans-serif;-inkscape-font-specification:Roboto;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99975"
          x="2317.2271"
          y="246.17949">Garage</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:25.2548px;line-height:1.1;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:end;text-anchor:end;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.175;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+       style="font-size:25.2548px;line-height:1.1;font-family:Roboto,sans-serif;-inkscape-font-specification:Roboto;text-align:end;text-anchor:end;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.175;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
        x="2232.4377"
        y="465.09726"
        id="text269"
@@ -1264,8 +1387,7 @@
        d="m 1266.4893,8.35223 h -41.66 v 82.28 h 76.03 v 55.72 l 46.0973,-0.248 0.7707,-99.737 h -45.826 z"
        fill="#dd7168"
        id="211"
-       transform="translate(2e-5,-2e-5)"
-        />
+       transform="translate(2e-5,-2e-5)" />
     <path
        style="opacity:0"
        d="m 609.23429,510.67271 108.46,91.5115 -30.081,35.801 -18.219,-15.253 -17.8721,21.25568 -89.5284,-75.48668 z"

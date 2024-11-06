@@ -1729,14 +1729,11 @@
        height="2"
        id="rect236" />
   </g>
-  <rect
-     x="-147.86905"
-     y="908.73535"
-     transform="rotate(-49.794597)"
-     width="53.977886"
-     height="2.0840883"
+  <path
      id="rect237"
-     style="stroke-width:1.04204" />
+     style="stroke-width:1.04204"
+     d="M -93.891766 908.73552 L -120.87245 908.73531 L -110.24339 908.7506 L -110.25483 910.8202 L -93.890914 910.81966 L -93.891766 908.73552 z M -120.14818 910.81984 L -131.50477 910.80381 L -131.49239 908.73533 L -147.86869 908.73483 L -147.86896 910.81992 L -120.14818 910.81984 z "
+     transform="rotate(-49.794597)" />
   <rect
      x="-143.03343"
      y="823.40515"
@@ -1917,7 +1914,7 @@
        id="text1615"><tspan
          sodipodi:role="line"
          id="tspan1615"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99975"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto,sans-serif;-inkscape-font-specification:Roboto;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99975"
          x="2341.6863"
          y="238.85596">Garage</tspan></text>
   </g>
