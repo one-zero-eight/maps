@@ -54,8 +54,9 @@ def ensure_pre_commit_hooks():
         )
         print("✅ Pre-commit hooks installed successfully.")
     except subprocess.CalledProcessError as e:
-        print(f"❌ Error setting up pre-commit hooks:\n{e.stderr}")
-        sys.exit(1)
+        print(
+            f"❌ Error setting up pre-commit hooks:\n{e.stderr}\nPlease, setup it manually with `poetry run pre-commit install --install-hooks -t pre-commit -t commit-msg`"
+        )
 
 
 ensure_settings_file()
