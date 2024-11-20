@@ -22,7 +22,7 @@ def ensure_settings_file():
         return
 
     if SETTINGS_FILE.exists():
-        print("✅ `settings.yaml` already exists. Skipping copying.")
+        print("✅ `settings.yaml` exists.")
         return
 
     shutil.copy(SETTINGS_TEMPLATE, SETTINGS_FILE)
@@ -43,7 +43,7 @@ def ensure_pre_commit_hooks():
         return
 
     if is_pre_commit_installed():
-        print("✅ Pre-commit hooks are already installed. Skipping pre-commit setup.")
+        print("✅ Pre-commit hooks are installed.")
         return
 
     try:
