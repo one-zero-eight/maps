@@ -15,12 +15,12 @@ fastapi = "^0.115.0"
 fastapi-swagger = "^0.2.3"
 gunicorn = "^23.0.0"
 pre-commit = "^4.0.1"
-pydantic = "^2.9.2"
+pydantic = "^2.10.0"
 pytest = "^8.3.3"
 pyyaml = "^6.0.2"
 rapidfuzz = "^3.10.0"
 ruff = "^0.7.4"
-uvicorn = "^0.32.0"
+uvicorn = "^0.32.1"
 
 [tool.ruff]
 line-length = 120
