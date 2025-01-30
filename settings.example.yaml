@@ -90,10 +90,6 @@ scenes:
           Telegram channel: https://t.me/coffeecava
       - title: Coffee-in
         svg_polygon_id: coffee-in
-      - title: Coffee++
-        svg_polygon_id: coffee-plus-plus
-        description: |
-          Telegram channel: https://t.me/+wU93hOSoLU5mNWNi
       - title: Wrap & Go
         svg_polygon_id: wrap-n-go
       - title: Garage

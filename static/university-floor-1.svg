@@ -358,10 +358,6 @@
      fill="#91a3b0"
      id="path5" />
   <path
-     d="m 938.41927,732.49523 -108.613,128.303 175.52203,148.05197 109.419,-129.03297 z"
-     fill="#9adbf8"
-     id="path6" />
-  <path
      d="m 380.95527,1139.0012 -48.272,-41.074 -32.817,15.456 -42.345,49.966 60.13,50.178 z"
      fill="#2d4485"
      id="path8" />
@@ -1328,17 +1324,6 @@
     <text
        xml:space="preserve"
        style="font-size:28.4967px;line-height:1.1;font-family:'Red Hat Mono';-inkscape-font-specification:'Red Hat Mono';text-align:end;text-anchor:end;opacity:1;fill:#17b69c;fill-opacity:1;stroke:#000000;stroke-width:0.99975;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-       x="1015.5638"
-       y="841.36304"
-       id="text1613"><tspan
-         sodipodi:role="line"
-         id="tspan1613"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto,sans-serif;-inkscape-font-specification:Roboto;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99975"
-         x="1015.5638"
-         y="841.36304">Coffee++</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:28.4967px;line-height:1.1;font-family:'Red Hat Mono';-inkscape-font-specification:'Red Hat Mono';text-align:end;text-anchor:end;opacity:1;fill:#17b69c;fill-opacity:1;stroke:#000000;stroke-width:0.99975;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
        x="1141.5219"
        y="751.59448"
        id="text1614"><tspan
@@ -1550,10 +1535,6 @@
        style="opacity:0"
        d="m 637.98677,1258.6237 114.96403,-136.3485 -83.84253,-70.714 -112.391,138.627 z"
        id="cava" />
-    <path
-       style="opacity:0"
-       d="m 938.64825,732.22423 134.35845,113.22197 -54.8605,65.02882 -49.4519,-41.63077 -30.69855,36.417 -85.1115,-71.772 z"
-       id="coffee-plus-plus" />
     <path
        style="opacity:0"
        d="m 1348.9279,452.2364 47.795,40.10481 c 0,0 -20.5553,33.66018 -46.2936,42.19352 -22.3516,7.4105 -45.8748,10.39662 -69.4723,-1.29379 0,0 67.9709,-81.00455 67.9709,-81.00454 z"
