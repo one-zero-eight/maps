@@ -90,8 +90,11 @@ scenes:
           Telegram channel: https://t.me/coffeecava
       - title: Coffee-in
         svg_polygon_id: coffee-in
-      - title: Wrap & Go
-        svg_polygon_id: wrap-n-go
+      - title: Happiness
+        svg_polygon_id: happiness
+        description: |
+          Working hours: 8:00 — 20:00
+          Telegram channel: https://t.me/happinesshalal
       - title: Garage
         ru_title: Гараж
         svg_polygon_id: garage-1

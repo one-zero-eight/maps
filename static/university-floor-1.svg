@@ -36,14 +36,6 @@
      d="M 1186.3711 612.63428 L 1185.0088 614.25732 L 1279.2188 693.6123 L 1280.584 691.99219 L 1186.3711 612.63428 z " />
   <rect
      style="opacity:1;fill:#9adbf8;fill-opacity:1;stroke:none;stroke-width:2.175;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-     id="rect1617"
-     width="63.664833"
-     height="122.71497"
-     x="1324.0306"
-     y="-520.64093"
-     transform="rotate(40)" />
-  <rect
-     style="opacity:1;fill:#9adbf8;fill-opacity:1;stroke:none;stroke-width:2.175;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
      id="rect1616"
      width="103.06625"
      height="59.550797"
@@ -358,6 +350,10 @@
      fill="#91a3b0"
      id="path5" />
   <path
+     d="m 938.41927,732.49523 -108.613,128.303 175.52203,148.05197 109.419,-129.03297 z"
+     fill="#9adbf8"
+     id="path6" />
+  <path
      d="m 380.95527,1139.0012 -48.272,-41.074 -32.817,15.456 -42.345,49.966 60.13,50.178 z"
      fill="#2d4485"
      id="path8" />
@@ -372,10 +368,6 @@
   <path
      d="m 730.26027,1336.1152 114.876,-136.322 -175.308,-147.943 -113.111,138.338 z"
      id="path1661"
-     style="fill:#9adbf8;fill-opacity:1" />
-  <path
-     d="m 1432.5783,503.35023 v -10.735 h -36.628 c -14.186,28.794 -43.827,48.696 -78.337,48.696 -23.713,0 -45.309,-9.527 -61.188,-24.983 -9.315,-9.104 -78.972,-65.634 -78.972,-65.634 l -23.924,28.371 174.299,146.285 z"
-     id="path1660"
      style="fill:#9adbf8;fill-opacity:1" />
   <path
      d="m 1736.1853,419.78523 -0.635,-91.04 h -47.637 v -314.395 h 45.416 l 10.5,103.996 h 44.5 v -30 l 44.999,-36.321 h 325.665 v 367.76 z"
@@ -1324,6 +1316,17 @@
     <text
        xml:space="preserve"
        style="font-size:28.4967px;line-height:1.1;font-family:'Red Hat Mono';-inkscape-font-specification:'Red Hat Mono';text-align:end;text-anchor:end;opacity:1;fill:#17b69c;fill-opacity:1;stroke:#000000;stroke-width:0.99975;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="1015.5638"
+       y="841.36304"
+       id="text1613"><tspan
+         sodipodi:role="line"
+         id="tspan1613"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto,sans-serif;-inkscape-font-specification:Roboto;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99975"
+         x="1015.5638"
+         y="841.36304">Happiness</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:28.4967px;line-height:1.1;font-family:'Red Hat Mono';-inkscape-font-specification:'Red Hat Mono';text-align:end;text-anchor:end;opacity:1;fill:#17b69c;fill-opacity:1;stroke:#000000;stroke-width:0.99975;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
        x="1141.5219"
        y="751.59448"
        id="text1614"><tspan
@@ -1398,17 +1401,6 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.7362px;font-family:Roboto,sans-serif;-inkscape-font-specification:Roboto;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.999747"
          x="1267.0647"
          y="463.2402">Coffee-in</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:16.7362px;line-height:1.1;font-family:'Red Hat Mono';-inkscape-font-specification:'Red Hat Mono';text-align:end;text-anchor:end;opacity:1;fill:#17b69c;fill-opacity:1;stroke:#000000;stroke-width:0.999747;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-       x="1384.7871"
-       y="504.21268"
-       id="text1617"><tspan
-         sodipodi:role="line"
-         id="tspan1617"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.7362px;font-family:Roboto,sans-serif;-inkscape-font-specification:Roboto;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.999747"
-         x="1384.7871"
-         y="504.21268">Wrap &amp; Go</tspan></text>
     <path
        id="path368"
        style="display:inline;stroke-width:1.06062"
@@ -1537,8 +1529,8 @@
        id="cava" />
     <path
        style="opacity:0"
-       d="m 1348.9279,452.2364 47.795,40.10481 c 0,0 -20.5553,33.66018 -46.2936,42.19352 -22.3516,7.4105 -45.8748,10.39662 -69.4723,-1.29379 0,0 67.9709,-81.00455 67.9709,-81.00454 z"
-       id="wrap-n-go" />
+       d="m 938.64825,732.22423 134.35845,113.22197 -54.8605,65.02882 -49.4519,-41.63077 -30.69855,36.417 -85.1115,-71.772 z"
+       id="happiness" />
     <rect
        style="opacity:0"
        id="coffee-in"
