@@ -126,8 +126,8 @@
      style="fill:#cccccc"
      class="st0"
      transform="matrix(1.0420921,0,0,1.0420921,-107.75142,-169.96522)"
-     d="M 372.39003,1027.6072 590.4,760.6 l 300.8,253.1 -21.9,26.3 -24.6,27.9 -112.3,131.8 -210,-177.3 -65.35806,76.815 z"
-     sodipodi:nodetypes="ccccccccc" />
+     d="M 372.39003,1027.6072 590.4,760.6 l 300.8,253.1 22.65,19.05 -22.28952,25.9116 L 869.3,1040 l -24.6,27.9 -112.3,131.8 -210,-177.3 -65.35806,76.815 z"
+     sodipodi:nodetypes="ccccccccccc" />
   <path
      id="polygon2"
      style="display:inline;fill:#cccccc;stroke-width:1.04209"
