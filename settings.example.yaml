@@ -606,3 +606,113 @@ scenes:
         ru_title: Гараж
         svg_polygon_id: garage-0
         prioritized: true
+
+  - scene_id: "sport-complex"
+    svg_file: "sport-complex.svg"
+    title: "Sport Complex"
+    legend:
+      - legend_id: "Reception"
+        color: "#ffe302"
+      - legend_id: "Cloakroom"
+        color: "#91a3b0"
+      - legend_id: "Elevator"
+        color: "#17b69c"
+      - legend_id: "InnoMax Cafe"
+        color: "#9adbf8"
+      - legend_id: "Changing room"
+        color: "#b3dd36"
+      - legend_id: "Sales department"
+        color: "#2d4485"
+      - legend_id: "Sauna"
+        color: "#ffcb7d"
+      - legend_id: "Training halls"
+        color: "#9681f2"
+      - legend_id: "Swimming pool"
+        color: "#6d9add"
+      - legend_id: "Music Room"
+        color: "#dd7168"
+    areas:
+      - title: Music Room
+        ru_title: Музыкальная Комната
+        svg_polygon_id: music-room
+        description: |
+          Website: https://innohassle.ru/music-room
+          Telegram bot: https://t.me/InnoMusicRoomBot
+      - title: Big Hall
+        ru_title: Большой Зал
+        svg_polygon_id: big-hall
+      - title: Sales Department
+        ru_title: Отдел Продаж
+        svg_polygon_id: sales-department
+        description: |
+          Working hours:
+          09:00 — 20:00 (Mon — Thu)
+          09:00 — 19:00 (Fri)
+          09:00 — 18:00 (Sat, Sun)
+          Lunch break:
+          12:00 — 13:00
+      - title: Reception
+        ru_title: Рецепция
+        svg_polygon_id: reception
+      - title: Changing Rooms
+        ru_title: Раздевалки
+        svg_polygon_id: changing-room-1
+        prioritized: true
+      - title: Hammam
+        ru_title: Хаммам
+        svg_polygon_id: hammam-1.1
+        prioritized: true
+      - title: Hammam
+        ru_title: Хаммам
+        svg_polygon_id: hammam-1.2
+      - title: Finnish Sauna
+        ru_title: Финская Сауна
+        svg_polygon_id: finnish-sauna-1
+        prioritized: true
+      - title: Finnish Sauna
+        ru_title: Финская Сауна
+        svg_polygon_id: finnish-sauna-2
+      - title: Swimming Pool
+        ru_title: Бассейн
+        svg_polygon_id: swimming-pool
+      - title: InnoMax Cafe
+        ru_title: Кафе Инномакс
+        svg_polygon_id: innomax
+        description: |
+          Working hours:
+          10:00 — 22:00 (Sun — Thu)
+          10:00 — 23:00 (Fri, Sat)
+          Telegram channel: https://t.me/InnoMaxcafe
+      - title: "221"
+        svg_polygon_id: "221"
+      - title: "223"
+        svg_polygon_id: "223"
+      - title: Boxing Gym — 203
+        ru_title: Зал для бокса - 203
+        svg_polygon_id: "203"
+      - title: "232"
+        svg_polygon_id: "232"
+      - title: "233"
+        svg_polygon_id: "233"
+      - title: Table Tennis Zone
+        ru_title: Зона Настольного Тенниса
+        svg_polygon_id: table-tennis-zone
+      - title: Changing Rooms
+        ru_title: Раздевалки
+        svg_polygon_id: changing-room-2
+      - title: Hammam
+        ru_title: Хаммам
+        svg_polygon_id: hammam-2.1
+      - title: Hammam
+        ru_title: Хаммам
+        svg_polygon_id: hammam-2.2
+      - title: "3.1"
+        svg_polygon_id: "3.1"
+      - title: "3.2"
+        svg_polygon_id: "3.2"
+      - title: "3.3"
+        svg_polygon_id: "3.3"
+      - title: "3.4"
+        svg_polygon_id: "3.4"
+      - title: "3.5"
+        svg_polygon_id: "3.5"
