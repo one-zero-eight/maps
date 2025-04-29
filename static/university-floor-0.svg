@@ -31,6 +31,15 @@
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg127" />
+  <path
+     style="fill:#d8f6c8;fill-opacity:1;stroke-width:3.25275;stroke-linecap:round;stroke-linejoin:round"
+     d="m 353.87191,1164.0088 -84.87994,-70.7874 -59.32883,70.2582 84.17357,71.7517"
+     id="path35"
+     sodipodi:nodetypes="cccc" />
+  <path
+     style="fill:#fffcb2;stroke-width:3.25275;stroke-linecap:round;stroke-linejoin:round;fill-opacity:1"
+     d="m 519.54383,965.46638 107.93126,90.72312 -88.70963,105.3545 27.15545,23.0833 -138.64276,161.2043 -87.60046,-73.167 59.37456,-70.5131 -21.48825,-18.1938 88.22397,-104.7451 15.47591,13.077 23.42578,-27.5063 -40.13821,-34.1433 z"
+     id="path34" />
   <g
      id="g1611"
      inkscape:label="Lifts"
@@ -525,10 +534,10 @@
      height="2.0841773"
      id="rect72"
      style="stroke-width:1.04209" />
-  <polygon
-     points="419.8,1144.4 362.9,1212 442,1278.1 448.5,1270.3 450.1,1271.6 442.3,1280.9 360.1,1212.2 418.3,1143.1 "
+  <path
      id="polygon72"
-     transform="matrix(1.0420921,0,0,1.0420921,-107.75142,-169.96522)" />
+     transform="matrix(1.0420921,0,0,1.0420921,-107.75142,-169.96522)"
+     d="m 419.8,1144.4 -56.9,67.6 79.1,66.1 6.5,-7.8 1.6,1.3 -7.8,9.3 -82.2,-68.7 58.2,-69.1 z" />
   <rect
      x="-628.99933"
      y="1018.6859"
@@ -796,11 +805,6 @@
        points="992,1098.3 1005.6,1082.4 1044.2,1114 1043,1115.5 1005.8,1085.2 993.6,1099.6 "
        id="polygon115" />
   </g>
-  <path
-     id="polygon116"
-     d="M 1393.9033,43.559451 H 1300.115 L 1267.9144,4.689416 H 1031.151 L 113.58894,1087.5273 427.05025,1351.9061 540.32566,1223.2077 713.10453,1366.9122 1433.8154,511.77143 h 83.0548 v 44.80996 h 67.5275 v -44.80996 h 175.801 v 44.60154 h 131.8246 v -44.60154 h 524.5892 V 43.559451 h -48.8674 V 1.5100001e-6 H 2356.699 V 8.4409475 h 2.6052 V 52.000397 h 48.7631 V 503.33049 h -524.5891 v 44.49733 h -114.7344 v -44.49733 h -188.6186 -4.2726 v 44.70575 h -50.4373 v -44.70575 h -95.5598 L 711.95823,1355.1366 539.38777,1211.6405 426.32078,1340.1304 125.46879,1086.5894 1035.111,13.234571 h 228.7392 l 32.3049,38.765826 h 101.8124 l 32.2006,-38.765826 h 371.8185 l 32.2006,38.765826 h 466.9439 V 8.4409475 h 2.6052 V 1.51e-6 h -11.1504 V 43.559451 H 1838.2514 L 1805.9465,4.689416 h -379.7383 z"
-     sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
-     style="stroke-width:1.04209" />
   <polygon
      points="692.8,1193.3 621.8,1277.6 647.4,1299.3 646.1,1300.9 619,1277.9 691.3,1192 "
      id="polygon117"
@@ -1879,6 +1883,60 @@
      height="2.0841842"
      id="rect256"
      style="stroke-width:1.04209" />
+  <path
+     id="polygon3"
+     transform="matrix(1.0420921,0,0,1.0420921,-141.77896,-292.74609)"
+     d="m 488.9035,1217.5852 -85.47861,-71.8644 1.45106,-1.355 85.30691,71.74 z"
+     sodipodi:nodetypes="ccccc" />
+  <path
+     id="path1"
+     style="stroke-width:1.04209"
+     d="m 232.02939,1138.5215 -21.61207,25.6762 -1.50836,-1.4362 21.55729,-25.5947 z m 12.1704,-17.608 32.7916,-38.9022 1.60298,1.3321 -32.80099,38.9133 z"
+     sodipodi:nodetypes="cccccccccc" />
+  <path
+     id="rect3"
+     d="m 542.65878,1098.4225 1.34785,-1.5896 9.93504,8.424 -1.34784,1.5896 z"
+     style="stroke-width:1.04206" />
+  <path
+     id="rect4"
+     d="m 514.76753,1074.7338 1.34784,-1.5898 18.20339,15.4328 -1.34784,1.5898 z"
+     style="stroke-width:1.04214" />
+  <path
+     id="path6"
+     d="m 552.25203,1106.5567 1.34785,-1.5896 9.93504,8.424 -1.34784,1.5896 z"
+     style="stroke-width:1.04206" />
+  <path
+     id="path8"
+     d="m 561.61618,1114.4966 1.34785,-1.5896 9.93504,8.424 -1.34784,1.5896 z"
+     style="stroke-width:1.04206" />
+  <path
+     id="polygon8"
+     transform="matrix(1.0420921,0,0,1.0420921,-46.884618,-118.24832)"
+     d="m 547.7,1152.2 53.5,-63.1 1.5,1.3 -52.2,61.6 z"
+     sodipodi:nodetypes="ccccc" />
+  <path
+     id="rect25"
+     style="stroke-width:1.04209"
+     d="m 556.64227,-1050.6274 104.30494,-2e-4 2.08432,-10e-5 -1.1e-4,-2.0843 -0.0103,-53.9352 -2.07399,0.037 v 53.8979 l -104.30495,2e-4 z m 104.31545,-77.4026 2.074,-10e-4 -0.0113,-23.8713 -2.07287,0.036 z m 4.9e-4,-45.256 2.07288,-10e-5 2.3e-4,-22.9528 -2.08374,0.1654 z"
+     transform="rotate(130.12836)"
+     sodipodi:nodetypes="ccccccccccccccccccc" />
+  <path
+     id="path25"
+     d="m 458.31908,1086.4775 6.71021,-7.9721 1.51734,1.4143 -6.66445,7.9126 z"
+     style="stroke-width:1.04209"
+     sodipodi:nodetypes="ccccc" />
+  <path
+     id="rect32"
+     style="stroke-width:1.04209"
+     transform="rotate(-139.87164)"
+     d="m -1196.7679,-579.33337 h 89.2606 v 2.08417 h -89.5128 z"
+     sodipodi:nodetypes="ccccc" />
+  <path
+     id="rect33"
+     style="stroke-width:1.04209"
+     transform="rotate(-49.871641)"
+     d="m -754.09688,1078.9114 93.14971,0 v 2.0842 h -93.27497 z"
+     sodipodi:nodetypes="ccccc" />
   <g
      id="g1"
      inkscape:label="Labels"
@@ -1918,6 +1976,28 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto,sans-serif;-inkscape-font-specification:Roboto;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99975"
          x="2341.6863"
          y="238.85596">Garage</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:28.4967px;line-height:1.1;font-family:'Red Hat Mono';-inkscape-font-specification:'Red Hat Mono';text-align:end;text-anchor:end;display:inline;fill:#17b69c;fill-opacity:1;stroke:#000000;stroke-width:0.99975;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="360.61591"
+       y="1178.1235"
+       id="text1614"><tspan
+         sodipodi:role="line"
+         id="tspan1614"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto, sans-serif;-inkscape-font-specification:Roboto;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99975"
+         x="360.61591"
+         y="1178.1235">Cloakroom</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:28.4967px;line-height:1.1;font-family:'Red Hat Mono';-inkscape-font-specification:'Red Hat Mono';text-align:end;text-anchor:end;display:inline;fill:#17b69c;fill-opacity:1;stroke:#000000;stroke-width:0.99975;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="538.43225"
+       y="1177.8037"
+       id="text34"><tspan
+         sodipodi:role="line"
+         id="tspan34"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto, sans-serif;-inkscape-font-specification:Roboto;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99975"
+         x="538.43225"
+         y="1177.8037">Game Сlub</tspan></text>
   </g>
   <g
      id="g2"
@@ -1934,10 +2014,18 @@
        class="st0"
        transform="matrix(1.0420921,0,0,1.0420921,-107.75142,-169.96522)"
        d="M 913.85,1032.75 891.56048,1058.6616 869.3,1040 l -24.6,27.9 -112.3,131.8 -210,-177.3 -65.50992,76.624 -89.20024,-75.5854 L 590.4,760.6 Z" />
+    <path
+       style="opacity:0"
+       d="m 519.54383,965.46638 107.93126,90.72312 -88.70963,105.3545 27.15545,23.0833 -138.64276,161.2043 -87.60046,-73.167 59.37456,-70.5131 -21.48825,-18.1938 88.22397,-104.7451 15.47591,13.077 23.42578,-27.5063 -40.13821,-34.1433 z"
+       id="gameclub" />
+    <path
+       style="opacity:0"
+       d="m 353.87191,1164.0088 -84.87994,-70.7874 -59.32883,70.2582 84.17357,71.7517"
+       id="cloakroom" />
   </g>
   <path
-     id="polygon3"
-     transform="matrix(1.0420921,0,0,1.0420921,-141.77896,-292.74609)"
-     d="m 488.9035,1217.5852 -85.47861,-71.8644 1.45106,-1.355 85.30691,71.74 z"
-     sodipodi:nodetypes="ccccc" />
+     id="polygon116"
+     d="M 1393.9033,43.559451 H 1300.115 L 1267.9144,4.689416 H 1031.151 L 113.58894,1087.5273 427.05025,1351.9061 540.32566,1223.2077 713.10453,1366.9122 1433.8154,511.77143 h 83.0548 v 44.80996 h 67.5275 v -44.80996 h 175.801 v 44.60154 h 131.8246 v -44.60154 h 524.5892 V 43.559451 h -48.8674 V 1.5100001e-6 H 2356.699 V 8.4409475 h 2.6052 V 52.000397 h 48.7631 V 503.33049 h -524.5891 v 44.49733 h -114.7344 v -44.49733 h -188.6186 -4.2726 v 44.70575 h -50.4373 v -44.70575 h -95.5598 L 711.95823,1355.1366 539.38777,1211.6405 426.32078,1340.1304 125.46879,1086.5894 1035.111,13.234571 h 228.7392 l 32.3049,38.765826 h 101.8124 l 32.2006,-38.765826 h 371.8185 l 32.2006,38.765826 h 466.9439 V 8.4409475 h 2.6052 V 1.51e-6 h -11.1504 V 43.559451 H 1838.2514 L 1805.9465,4.689416 h -379.7383 z"
+     sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+     style="stroke-width:1.04209" />
 </svg>
