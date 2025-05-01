@@ -33,7 +33,6 @@ scenes:
         svg_polygon_id: "1.4"
       - title: "100"
         svg_polygon_id: "100"
-        description: "Applicant reception"
       - title: "101"
         svg_polygon_id: "101"
       - title: "102"
