@@ -611,6 +611,12 @@ scenes:
         ru_title: Гараж
         svg_polygon_id: garage-0
         prioritized: true
+      - title: "Game club"
+        ru_title: "Игровой клуб"
+        svg_polygon_id: "gameclub"
+      - title: "Cloakroom"
+        ru_title: "Гардероб"
+        svg_polygon_id: "cloakroom"
 
   - scene_id: "sport-complex"
     svg_file: "sport-complex.svg"
