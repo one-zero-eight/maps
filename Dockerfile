@@ -55,6 +55,7 @@ RUN groupadd -g 1500 poetry && \
     useradd -m -u 1500 -g poetry poetry
 
 COPY --chown=poetry:poetry . /code
+COPY --chown=poetry:poetry scenes.yaml /scenes.yaml
 USER poetry
 WORKDIR /code
 

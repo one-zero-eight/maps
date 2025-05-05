@@ -76,8 +76,6 @@ class Settings(SettingBaseModel):
     "App environment flag"
     app_root_path: str = ""
     'Prefix for the API path (e.g. "/api/v0")'
-    scenes: list[Scene] = []
-    "List of scenes"
     cors_allow_origin_regex: str = ".*"
     """
     Allowed origins for CORS: from which domains requests to the API are allowed.
