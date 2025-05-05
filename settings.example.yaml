@@ -149,6 +149,8 @@ scenes:
         svg_polygon_id: "206"
       - title: "207"
         svg_polygon_id: "207"
+      - title: "207a"
+        svg_polygon_id: "207a"
       - title: "208"
         svg_polygon_id: "208"
       - title: "209"
