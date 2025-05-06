@@ -11,3 +11,5 @@ def load_scenes(path: Path = Path("scenes.yaml")) -> list[Scene]:
     with open(path, encoding="utf-8") as f:
         data = yaml.safe_load(f)
         return [Scene.model_validate(scene) for scene in data.get("scenes", [])]
+
+scenes: list[Scene] = load_scenes()

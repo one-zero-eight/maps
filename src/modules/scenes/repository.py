@@ -3,7 +3,7 @@ from re import escape, search
 from rapidfuzz import fuzz, utils
 
 from src.api.logging_ import logger
-from src.config import load_scenes
+from src.config import scenes
 from src.config_schema import Area, Scene
 from src.modules.scenes.schemas import SearchResult
 
@@ -21,7 +21,7 @@ def prepare_for_search(area: Area) -> str | None:
 # noinspection PyMethodMayBeStatic
 class SceneRepository:
     def get_all(self) -> list[Scene]:
-        return load_scenes()
+        return scenes
 
     def search(self, query: str):
         all_scenes = scene_repository.get_all()
