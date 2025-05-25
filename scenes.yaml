@@ -98,6 +98,8 @@ scenes:
         ru_title: Читалка
         svg_polygon_id: reading-hall-1
         prioritized: true
+      - title: First floor printer
+        svg_polygon_id: printer-1f
   - scene_id: "university-floor-2"
     svg_file: "university-floor-2.svg"
     title: "Floor 2"
@@ -271,6 +273,8 @@ scenes:
           Student Affairs Office
           Usual working hours: 9:00 — 18:00 (Mon — Fri)
           Telegram bot: https://t.me/StudentAffairs_bot
+      - title: "319 Printer"
+        svg_polygon_id: printer-319
       - title: "320"
         svg_polygon_id: "320"
         room_booking_id: "320"
