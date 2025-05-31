@@ -45,6 +45,9 @@ scenes:
         svg_polygon_id: "106"
         prioritized: true
         description: "Big lecture room «South»"
+      - title: "106a"
+        svg_polygon_id: "106a"
+        description: "Admission office"
       - title: "107"
         svg_polygon_id: "107"
         prioritized: true
