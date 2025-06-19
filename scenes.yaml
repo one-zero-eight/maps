@@ -88,6 +88,8 @@ scenes:
           Telegram channel: https://t.me/coffeecava
       - title: Coffee-in
         svg_polygon_id: coffee-in
+      - title: In Joy
+        svg_polygon_id: injoy
       - title: Happiness
         svg_polygon_id: happiness
         description: |
