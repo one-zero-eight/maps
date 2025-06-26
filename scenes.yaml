@@ -48,6 +48,9 @@ scenes:
       - title: "106a"
         svg_polygon_id: "106a"
         description: "Admission office"
+      - title: "105B"
+        svg_polygon_id: "105b"
+        description: "Admission office"
       - title: "107"
         svg_polygon_id: "107"
         prioritized: true
