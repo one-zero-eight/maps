@@ -50,7 +50,7 @@ scenes:
         description: "Admission office"
       - title: "105B"
         svg_polygon_id: "105b"
-        description: "Admission office"
+        description: "Admission office managers"
       - title: "107"
         svg_polygon_id: "107"
         prioritized: true
