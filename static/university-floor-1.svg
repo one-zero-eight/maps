@@ -1072,9 +1072,9 @@
        id="text1616"><tspan
          sodipodi:role="line"
          id="tspan1616"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.7362px;font-family:Roboto,sans-serif;-inkscape-font-specification:Roboto;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.999747"
-         x="1267.0647"
-         y="463.2402">Coffee-in</tspan></text><path
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.7362px;font-family:Roboto,sans-serif;-inkscape-font-specification:Roboto;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.999747"
+         x="1280.0647"
+         y="463.2402">Neuro coffee</tspan></text><path
        id="path368"
        style="display:inline;stroke-width:1.06062"
        d="m 2329.9808,426.80894 v 2.21485 h 4.0225 v 15.60351 h 2.5195 v -17.81836 z m 9.98,0 v 5.39649 h 2.4448 v -3.18164 h 8.146 l -7.0503,15.60351 h 2.6982 l 7.2027,-16.08691 v -1.73145 h -13.44 z m -19.4286,0 v 2.21485 h 4.0225 v 15.60351 h 2.5195 v -17.81836 z"
@@ -1188,7 +1188,7 @@
        d="m 938.64825,732.22423 134.35845,113.22197 -54.8605,65.02882 -49.4519,-41.63077 -30.69855,36.417 -85.1115,-71.772 z"
        id="happiness" /><rect
        style="opacity:0"
-       id="coffee-in"
+       id="neuro-coffee"
        width="103.06625"
        height="59.550797"
        x="1190.4868"
