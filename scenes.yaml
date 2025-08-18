@@ -747,8 +747,8 @@ scenes:
       - title: Innopolis University
         ru_title: Университет Иннополис
         svg_polygon_id: iu
-      - title: Innopolis Stadium
-        ru_title: Стадион Иннополис
+      - title: Football Stadium
+        ru_title: Футбольный Стадион
         svg_polygon_id: stadium
       - title: Hockey Box
         ru_title: Хоккейная Коробка
@@ -779,12 +779,20 @@ scenes:
         svg_polygon_id: vc-2
       - title: Parking
         ru_title: Парковка
-        svg_polygon_id: parking-sc
+        svg_polygon_id: parking-sc-1
         description: "The parking next to the Sport Complex."
       - title: Parking
         ru_title: Парковка
         svg_polygon_id: parking-dorms
         description: "The parking behind the Dormitories."
+      - title: Parking
+        ru_title: Парковка
+        svg_polygon_id: parking-sc-2
+        description: "The parking in front of the Sport Complex."
+      - title: Parking
+        ru_title: Парковка
+        svg_polygon_id: parking-d-1
+        description: "The parking near the first dormitory."
       - title: Sport Complex
         ru_title: Спорткомлекс
         svg_polygon_id: sc
