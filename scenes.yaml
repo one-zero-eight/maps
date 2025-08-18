@@ -771,11 +771,11 @@ scenes:
       - title: Basketball Court 2
         ru_title: Баскетбольная Площадка 2
         svg_polygon_id: bc-2
-      - title: Volleyball Court 1
-        ru_title: Воллейбольная Площадка 1
+      - title: Volleyball Court
+        ru_title: Волейбольная Площадка
         svg_polygon_id: vc-1
-      - title: Volleyball Court 2
-        ru_title: Воллейбольная Площадка 2
+      - title: Beach Volleyball Court
+        ru_title: Площадка для пляжного волейбола
         svg_polygon_id: vc-2
       - title: Parking
         ru_title: Парковка
