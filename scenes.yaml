@@ -740,3 +740,95 @@ scenes:
         svg_polygon_id: "3.4"
       - title: "3.5"
         svg_polygon_id: "3.5"
+  - scene_id: "campus"
+    svg_file: "campus.svg"
+    title: "Campus"
+    areas:
+      - title: Innopolis University
+        ru_title: Университет Иннополис
+        svg_polygon_id: iu
+      - title: Innopolis Stadium
+        ru_title: Стадион Иннополис
+        svg_polygon_id: stadium
+      - title: Hockey Box
+        ru_title: Хоккейная Коробка
+        svg_polygon_id: hockey-box
+      - title: Tennis Court 1
+        ru_title: Теннисный Корт 1
+        svg_polygon_id: tc-1
+      - title: Tennis Court 2
+        ru_title: Теннисный Корт 2
+        svg_polygon_id: tc-2
+      - title: Tennis Court 3
+        ru_title: Теннисный Корт 3
+        svg_polygon_id: tc-3
+      - title: Tennis Court 4
+        ru_title: Теннисный Корт 4
+        svg_polygon_id: tc-4
+      - title: Basketball Court 1
+        ru_title: Баскетбольная Площадка 1
+        svg_polygon_id: bc-1
+      - title: Basketball Court 2
+        ru_title: Баскетбольная Площадка 2
+        svg_polygon_id: bc-2
+      - title: Volleyball Court 1
+        ru_title: Воллейбольная Площадка 1
+        svg_polygon_id: vc-1
+      - title: Volleyball Court 2
+        ru_title: Воллейбольная Площадка 2
+        svg_polygon_id: vc-2
+      - title: Parking
+        ru_title: Парковка
+        svg_polygon_id: parking-sc
+        description: "The parking next to the Sport Complex."
+      - title: Parking
+        ru_title: Парковка
+        svg_polygon_id: parking-dorms
+        description: "The parking behind the Dormitories."
+      - title: Sport Complex
+        ru_title: Спорткомлекс
+        svg_polygon_id: sc
+      - title: Roundabout
+        ru_title: Перекресток с круговым движением
+        svg_polygon_id: roundabout
+      - title: Dormitory 1
+        ru_title: Общежитие 1
+        svg_polygon_id: d-1
+      - title: Dormitory 2
+        ru_title: Общежитие 2
+        svg_polygon_id: d-2
+      - title: Dormitory 3
+        ru_title: Общежитие 3
+        svg_polygon_id: d-3
+      - title: Dormitory 4
+        ru_title: Общежитие 4
+        svg_polygon_id: d-4
+      - title: Dormitory 5
+        ru_title: Общежитие 5
+        svg_polygon_id: d-5
+      - title: Dormitory 6
+        ru_title: Общежитие 6
+        svg_polygon_id: d-6
+      - title: Dormitory 7
+        ru_title: Общежитие 7
+        svg_polygon_id: d-7
+      - title: Pedestrian Crossing
+        ru_title: Пешеходный переход
+        svg_polygon_id: p-1
+        description: "In front of tennis courts."
+      - title: Pedestrian Crossing
+        ru_title: Пешеходный переход
+        svg_polygon_id: p-2
+        description: "In front of the stadium."
+      - title: Pedestrian Crossing
+        ru_title: Пешеходный переход
+        svg_polygon_id: p-3
+        description: "In front of the sport complex."
+      - title: Pedestrian Crossing
+        ru_title: Пешеходный переход
+        svg_polygon_id: p-4
+        description: "Between IU and sport complex."
+      - title: Pedestrian Crossing
+        ru_title: Пешеходный переход
+        svg_polygon_id: p-5
+        description: "In front of IU."
