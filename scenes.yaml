@@ -730,7 +730,8 @@ scenes:
       - title: Hammam
         ru_title: Хаммам
         svg_polygon_id: hammam-2.2
-      - title: "3.1"
+      - title: "[SC] 3rd floor"
+        ru_title: "[СК] 3-й этаж"
         svg_polygon_id: "3.1"
       - title: "3.2"
         svg_polygon_id: "3.2"
