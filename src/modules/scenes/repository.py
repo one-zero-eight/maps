@@ -27,37 +27,27 @@ class SceneRepository:
         all_scenes = scene_repository.get_all()
         result = []
 
+        query_clean = query.lower().strip()
+
+        if "[sc]" in query_clean or "[ск]" in query_clean:
+            all_scenes = [scene for scene in all_scenes if scene.scene_id == "sport-complex"]
+
+        if "музыка" in query_clean or "music" in query_clean:
+            for scene in all_scenes:
+                for index, area in enumerate(scene.areas):
+                    if area.svg_polygon_id == "music-room":
+                        return [SearchResult(scene_id=scene.scene_id, area_index=index, area=area)]
+
         for scene in all_scenes:
             logger.debug(scene.areas)
 
             for index, area in enumerate(scene.areas):
                 for title in filter(None, (area.title, area.ru_title)):
-                    query_clean = query.lower().strip()
-                    title_clean = title.lower().strip()
+                    if search(rf"\b{escape(query_clean)}", title.lower().strip()):
+                        if area.prioritized:
+                            return [SearchResult(scene_id=scene.scene_id, area_index=index, area=area)]
 
-                    # Handle [SC] prefix searches specially - only search in sport-complex scene
-                    if query_clean.startswith("[sc]") or query_clean.startswith("[ск]"):
-                        if scene.scene_id == "sport-complex":
-                            # Check if the rest of the query matches in sport complex
-                            query_without_prefix = query_clean.replace("[sc]", "").replace("[ск]", "").strip()
-                            if query_without_prefix in title_clean or search(
-                                rf"{escape(query_without_prefix)}", title_clean
-                            ):
-                                if area.prioritized:
-                                    return [SearchResult(scene_id=scene.scene_id, area_index=index, area=area)]
-                                result.append(SearchResult(scene_id=scene.scene_id, area_index=index, area=area))
-                    # Handle Music room 020 special case
-                    elif "music room 020" in query_clean or "музыкальная комната 020" in query_clean:
-                        if "music room" in title_clean or "музыкальная комната" in title_clean:
-                            if area.prioritized:
-                                return [SearchResult(scene_id=scene.scene_id, area_index=index, area=area)]
-                            result.append(SearchResult(scene_id=scene.scene_id, area_index=index, area=area))
-                    else:
-                        # Regular search with word boundaries
-                        if search(rf"\b{escape(query_clean)}", title_clean):
-                            if area.prioritized:
-                                return [SearchResult(scene_id=scene.scene_id, area_index=index, area=area)]
-                            result.append(SearchResult(scene_id=scene.scene_id, area_index=index, area=area))
+                        result.append(SearchResult(scene_id=scene.scene_id, area_index=index, area=area))
 
         if result:
             return result
