@@ -56,7 +56,7 @@ class SceneRepository:
         for scene in all_scenes:
             for index, area in enumerate(scene.areas):
                 for person in area.people:
-                    score = fuzz.partial_ratio(query.lower().strip(), person.lower())
+                    score = fuzz.partial_ratio(query_clean, person.lower())
                     people_results.append((score, scene, index))
         if people_results:
             score, scene, index = max(people_results, key=lambda x: x[0])
