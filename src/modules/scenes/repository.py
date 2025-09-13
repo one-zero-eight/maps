@@ -27,12 +27,23 @@ class SceneRepository:
         all_scenes = scene_repository.get_all()
         result = []
 
+        query_clean = query.lower().strip()
+
+        if "[sc]" in query_clean or "[ск]" in query_clean:
+            all_scenes = [scene for scene in all_scenes if scene.scene_id == "sport-complex"]
+
+        if "музыка" in query_clean or "music" in query_clean:
+            for scene in all_scenes:
+                for index, area in enumerate(scene.areas):
+                    if area.svg_polygon_id == "music-room":
+                        return [SearchResult(scene_id=scene.scene_id, area_index=index, area=area)]
+
         for scene in all_scenes:
             logger.debug(scene.areas)
 
             for index, area in enumerate(scene.areas):
                 for title in filter(None, (area.title, area.ru_title)):
-                    if search(rf"\b{escape(query.lower().strip())}", title.lower().strip()):
+                    if search(rf"\b{escape(query_clean)}", title.lower().strip()):
                         if area.prioritized:
                             return [SearchResult(scene_id=scene.scene_id, area_index=index, area=area)]
 
@@ -45,7 +56,7 @@ class SceneRepository:
         for scene in all_scenes:
             for index, area in enumerate(scene.areas):
                 for person in area.people:
-                    score = fuzz.partial_ratio(query.lower().strip(), person.lower())
+                    score = fuzz.partial_ratio(query_clean, person.lower())
                     people_results.append((score, scene, index))
         if people_results:
             score, scene, index = max(people_results, key=lambda x: x[0])
