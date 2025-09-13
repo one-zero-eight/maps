@@ -25,6 +25,11 @@
 	.st19{opacity:0;fill:#DD7168;}
 </style>
 <g>
+	<path
+   d="m 244.2,2481.3 1410.2,88.8 v -447.8 h -465.8 v 21.5 H 244.2 Z"
+   id="floor-3"
+   inkscape:label="entire-floor"
+   style="opacity:0" />
 	<polygon class="st0" points="240.2,2136.9 240.2,2482.2 704.7,2512.8 704.7,2139.3 	"/>
 	<rect x="925.1" y="2172.5" class="st1" width="39.6" height="27.4"/>
 	<polygon class="st0" points="1263.5,2119 1263.5,2353.3 1378.4,2353.3 1402.8,2377.7 1521.8,2377.7 1573.2,2326.2 1657,2326.2
