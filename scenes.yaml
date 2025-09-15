@@ -182,7 +182,10 @@ scenes:
       - title: Canteen
         ru_title: Столовая
         svg_polygon_id: canteen-2
-        description: "This is the canteen for events. The main canteen entrance is on the 1st floor."
+        description: |
+          Usual working hours: 11:30 — 15:00 (weekdays)
+          The main canteen is on the first floor.  
+          Telegram channel: https://t.me/matrixfood
       - title: Garage
         ru_title: Гараж
         svg_polygon_id: garage-2
