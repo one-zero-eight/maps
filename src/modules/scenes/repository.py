@@ -31,8 +31,17 @@ class SceneRepository:
 
         if "[sc]" in query_clean or "[ск]" in query_clean:
             all_scenes = [scene for scene in all_scenes if scene.scene_id == "sport-complex"]
+            if "floor" in query_clean:
+                ground_floor = list()
+                for index, area in enumerate(all_scenes[0].areas):
+                    if f"floor-{''.join(filter(str.isdigit, query_clean))}" == area.svg_polygon_id:
+                        return [SearchResult(scene_id="sport-complex", area_index=index, area=area)]
+                    if area.svg_polygon_id == "floor-0":
+                        ground_floor = index, area
+                else:
+                    return [SearchResult(scene_id="sport-complex", area_index=ground_floor[0], area=ground_floor[1])]
 
-        if "музыка" in query_clean or "music" in query_clean:
+        if "муз" in query_clean or "music" in query_clean:
             for scene in all_scenes:
                 for index, area in enumerate(scene.areas):
                     if area.svg_polygon_id == "music-room":
