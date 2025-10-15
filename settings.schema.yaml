@@ -11,131 +11,12 @@ $defs:
         type: string
     title: Accounts
     type: object
-  Area:
-    additionalProperties: false
-    properties:
-      svg_polygon_id:
-        anyOf:
-        - type: string
-        - type: 'null'
-        default: null
-        description: ID of the polygon in the SVG
-        title: Svg Polygon Id
-      title:
-        anyOf:
-        - type: string
-        - type: 'null'
-        default: null
-        description: Title of the area
-        title: Title
-      ru_title:
-        anyOf:
-        - type: string
-        - type: 'null'
-        default: null
-        description: Title in Russian
-        title: Ru Title
-      legend_id:
-        anyOf:
-        - type: string
-        - type: 'null'
-        default: null
-        description: ID of the legend (if any)
-        title: Legend Id
-      description:
-        anyOf:
-        - type: string
-        - type: 'null'
-        default: null
-        description: Description of the area
-        title: Description
-      people:
-        default: []
-        description: List of people for this area
-        items:
-          type: string
-        title: People
-        type: array
-      prioritized:
-        default: false
-        description: Priority for multi-floor areas
-        title: Prioritized
-        type: boolean
-      room_booking_id:
-        anyOf:
-        - type: string
-        - type: 'null'
-        default: null
-        description: ID of the room in Room Booking API (if any)
-        title: Room Booking Id
-    title: Area
-    type: object
   Environment:
     enum:
     - development
     - production
     title: Environment
     type: string
-  LegendEntry:
-    additionalProperties: false
-    properties:
-      legend_id:
-        description: ID of the legend
-        title: Legend Id
-        type: string
-      color:
-        anyOf:
-        - type: string
-        - type: 'null'
-        default: null
-        description: Color of the legend
-        title: Color
-      legend:
-        anyOf:
-        - type: string
-        - type: 'null'
-        default: null
-        description: Description of the legend (may contain multiple lines)
-        title: Legend
-    required:
-    - legend_id
-    title: LegendEntry
-    type: object
-  Scene:
-    additionalProperties: false
-    properties:
-      scene_id:
-        description: ID of the scene
-        title: Scene Id
-        type: string
-      title:
-        description: Title of the scene
-        title: Title
-        type: string
-      svg_file:
-        description: Path to the SVG file in /static
-        title: Svg File
-        type: string
-      legend:
-        default: []
-        description: Legend of the scene
-        items:
-          $ref: '#/$defs/LegendEntry'
-        title: Legend
-        type: array
-      areas:
-        default: []
-        description: Areas of the scene
-        items:
-          $ref: '#/$defs/Area'
-        title: Areas
-        type: array
-    required:
-    - scene_id
-    - title
-    - svg_file
-    title: Scene
-    type: object
 additionalProperties: false
 description: Settings for the application.
 properties:
@@ -152,13 +33,6 @@ properties:
     description: Prefix for the API path (e.g. "/api/v0")
     title: App Root Path
     type: string
-  scenes:
-    default: []
-    description: List of scenes
-    items:
-      $ref: '#/$defs/Scene'
-    title: Scenes
-    type: array
   cors_allow_origin_regex:
     default: .*
     description: 'Allowed origins for CORS: from which domains requests to the API

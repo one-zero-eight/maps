@@ -185,7 +185,7 @@ scenes:
         svg_polygon_id: canteen-2
         description: |
           Usual working hours: 11:30 — 15:00 (weekdays)
-          The main canteen is on the first floor.  
+          The main canteen is on the first floor.
           Telegram channel: https://t.me/matrixfood
       - title: Garage
         ru_title: Гараж

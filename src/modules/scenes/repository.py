@@ -38,8 +38,7 @@ class SceneRepository:
                         return [SearchResult(scene_id="sport-complex", area_index=index, area=area)]
                     if area.svg_polygon_id == "floor-0":
                         ground_floor = index, area
-                else:
-                    return [SearchResult(scene_id="sport-complex", area_index=ground_floor[0], area=ground_floor[1])]
+                return [SearchResult(scene_id="sport-complex", area_index=ground_floor[0], area=ground_floor[1])]
 
         if "муз" in query_clean or "music" in query_clean:
             for scene in all_scenes:
