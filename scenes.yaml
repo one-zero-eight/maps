@@ -632,6 +632,9 @@ scenes:
         svg_polygon_id: "515"
       - title: "516"
         svg_polygon_id: "516"
+      - title: "VK Zone"
+        svg_polygon_id: "vk"
+        description: "Coworking"
 
   - scene_id: "university-floor-0"
     svg_file: "university-floor-0.svg"
