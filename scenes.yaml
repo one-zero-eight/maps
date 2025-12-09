@@ -118,6 +118,14 @@ scenes:
         prioritized: true
       - title: First floor printer
         svg_polygon_id: printer-1f
+      - title: "Main Hall"
+        svg_polygon_id: "atrium"
+        description: "Atrium"
+      - title: "Reception"
+        svg_polygon_id: "reception"
+      - title: "Merch Shop"
+        svg_polygon_id: "merch"
+
   - scene_id: "university-floor-2"
     svg_file: "university-floor-2.svg"
     title: "Floor 2"
@@ -238,6 +246,10 @@ scenes:
         room_booking_id: "301"
       - title: "302"
         svg_polygon_id: "302"
+      - title: "302/1"
+        svg_polygon_id: "302-1"
+      - title: "302/2"
+        svg_polygon_id: "302-2"
       - title: "303"
         svg_polygon_id: "303"
         room_booking_id: "303"
@@ -498,6 +510,9 @@ scenes:
       - title: "451"
         svg_polygon_id: "451"
         description: "IT department"
+      - title: "Coffice"
+        svg_polygon_id: "coffice"
+        description: "Кофис"
       - title: "452"
         svg_polygon_id: "452"
         room_booking_id: "452"
@@ -686,6 +701,7 @@ scenes:
         ru_title: Музыкальная Комната
         svg_polygon_id: music-room
         description: |
+          Room 020
           Website: https://innohassle.ru/music-room
           Telegram bot: https://t.me/InnoMusicRoomBot
       - title: Big Hall
