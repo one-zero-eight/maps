@@ -141,15 +141,19 @@ scenes:
     areas:
       - title: "105"
         svg_polygon_id: "105"
+        room_booking_id: "105"
         description: "Main entrance is on the 1st floor. There is an additional entrance from the 2nd floor."
       - title: "106"
         svg_polygon_id: "106"
+        room_booking_id: "106"
         description: "The only entrance is on the 1st floor."
       - title: "107"
         svg_polygon_id: "107"
+        room_booking_id: "107"
         description: "The only entrance is on the 1st floor."
       - title: "108"
         svg_polygon_id: "108"
+        room_booking_id: "108"
         description: "Main entrance is on the 1st floor. There is an additional entrance from the 2nd floor."
       - title: "2.1"
         svg_polygon_id: "2.1"
@@ -359,12 +363,16 @@ scenes:
     areas:
       - title: "4.2"
         svg_polygon_id: "4.2"
+        room_booking_id: "4.2"
       - title: "4.3"
         svg_polygon_id: "4.3"
+        room_booking_id: "4.3"
       - title: "4.4"
         svg_polygon_id: "4.4"
+        room_booking_id: "4.4"
       - title: "4.5"
         svg_polygon_id: "4.5"
+        room_booking_id: "4.5"
       - title: "401"
         svg_polygon_id: "401"
         people:
@@ -648,6 +656,7 @@ scenes:
       - title: "516"
         svg_polygon_id: "516"
       - title: "VK Zone"
+        ru_title: "ВК Зона"
         svg_polygon_id: "vk"
         description: "Coworking"
 
@@ -718,7 +727,7 @@ scenes:
           Lunch break:
           12:00 — 13:00
       - title: Reception
-        ru_title: Рецепция
+        ru_title: Ресепшен
         svg_polygon_id: reception
       - title: Changing Rooms
         ru_title: Раздевалки
@@ -856,24 +865,31 @@ scenes:
       - title: Dormitory 1
         ru_title: Общежитие 1
         svg_polygon_id: d-1
+        description: "Переход в УИ на 2 этаже."
       - title: Dormitory 2
         ru_title: Общежитие 2
         svg_polygon_id: d-2
+        description: "Переход в УИ на 2 этаже."
       - title: Dormitory 3
         ru_title: Общежитие 3
+        description: "Переход в УИ на 2 этаже."
         svg_polygon_id: d-3
       - title: Dormitory 4
         ru_title: Общежитие 4
         svg_polygon_id: d-4
+        description: "Переход в УИ на 2 этаже.\nМедпункт - 1 этаж (Telegram-чат https://t.me/joinchat/CYQdEE7F09Mkbmp_G9r0Bw, тел. +79655962805, для обращений ночью комната 4-101)"
       - title: Dormitory 5
         ru_title: Общежитие 5
         svg_polygon_id: d-5
+        description: "Переход в УИ на 2 этаже.\nАдминистрация - 1 этаж (время работы 9:00-18:00 по будням)\nРесепшен - 1 этаж (время работы 9:00-19:30 ежедневно)"
       - title: Dormitory 6
         ru_title: Общежитие 6
         svg_polygon_id: d-6
+        description: "Переход в УИ на 3 этаже."
       - title: Dormitory 7
         ru_title: Общежитие 7
         svg_polygon_id: d-7
+        description: "Переход в УИ на 3 этаже.\nПункт выдачи горнолыжного инвентаря - 7-127 (рядом с пунктом охраны), время работы 9:00-21:00 ежедневно, сайт https://portal.university.innopolis.ru/booking/index.php, Telegram https://t.me/sportrentui"
       - title: Pedestrian Crossing
         ru_title: Пешеходный переход
         svg_polygon_id: p-1
