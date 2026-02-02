@@ -866,31 +866,45 @@ scenes:
       - title: Dormitory 1
         ru_title: Общежитие 1
         svg_polygon_id: d-1
-        description: "Переход в УИ на 2 этаже."
+        description: |
+          Canteen;
+          Transition to IU is on the 2nd floor.
       - title: Dormitory 2
         ru_title: Общежитие 2
         svg_polygon_id: d-2
-        description: "Переход в УИ на 2 этаже."
+        description: |
+          Bicycles Storage;
+          Transition to IU is on the 2nd floor.
       - title: Dormitory 3
         ru_title: Общежитие 3
-        description: "Переход в УИ на 2 этаже."
+        description: |
+          Security guards' lockers for prohibited items;
+          Transition to IU is on the 2nd floor.
         svg_polygon_id: d-3
       - title: Dormitory 4
         ru_title: Общежитие 4
         svg_polygon_id: d-4
-        description: "Переход в УИ на 2 этаже.\nМедпункт - 1 этаж (Telegram-чат https://t.me/joinchat/CYQdEE7F09Mkbmp_G9r0Bw, тел. +79655962805, для обращений ночью комната 4-101)"
+        description: |
+          First-aid post (the 1st floor, Telegram chat: https://t.me/joinchat/CYQdEE7F09Mkbmp_G9r0Bw, hotline: +79655962805, go to room 4-101 in night emergency cases);
+          Tennis Tables;
+          Transition to IU is on the 2nd floor.
       - title: Dormitory 5
         ru_title: Общежитие 5
         svg_polygon_id: d-5
-        description: "Переход в УИ на 2 этаже.\nАдминистрация - 1 этаж (время работы 9:00-18:00 по будням)\nРесепшен - 1 этаж (время работы 9:00-19:30 ежедневно)"
+        description: |
+          Reception (the 1st floor, 9 a.m. to 7:30 p.m. every day);
+          Administration (the 1st floor, 9 a.m. to 6:00 p.m. Monday through Friday);
+          Transition to IU is on the 2nd floor.
       - title: Dormitory 6
         ru_title: Общежитие 6
         svg_polygon_id: d-6
-        description: "Переход в УИ на 3 этаже."
+        description: "Transition to IU is on the 3rd floor."
       - title: Dormitory 7
         ru_title: Общежитие 7
         svg_polygon_id: d-7
-        description: "Переход в УИ на 3 этаже.\nПункт выдачи горнолыжного инвентаря - 7-127 (рядом с пунктом охраны), время работы 9:00-21:00 ежедневно, сайт https://portal.university.innopolis.ru/booking/index.php, Telegram https://t.me/sportrentui"
+        description: |
+          Ski equipment pick-up point (room 7-127 next to the security post, 9 a.m. to 9 p.m. every day, website https://portal.university.innopolis.ru/booking/index.php, Telegram https://t.me/sportrentui);
+          Transition to IU is on the 3rd floor.
       - title: Pedestrian Crossing
         ru_title: Пешеходный переход
         svg_polygon_id: p-1
