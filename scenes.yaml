@@ -119,8 +119,9 @@ scenes:
       - title: First floor printer
         svg_polygon_id: printer-1f
       - title: "Main Hall"
+        svg_polygon_id: "main-hall"
+      - title: "Atrium"
         svg_polygon_id: "atrium"
-        description: "Atrium"
       - title: "Reception"
         svg_polygon_id: "reception"
       - title: "Merch Shop"
