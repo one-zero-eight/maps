@@ -1273,13 +1273,11 @@
        id="reception" /><path
        style="opacity:0"
        d="m 669.31231,1053.119 52.97239,-62.84893 114.06535,96.14033 -53.10045,62.898 z"
-       id="merch" /><rect
-       style="opacity:0"
+       id="merch" /><path
        id="neuro-coffee"
-       width="103.06625"
-       height="59.550797"
-       x="1190.4868"
-       y="-471.31277"
+       style="opacity:0"
+       d="m 1190.4868,-486.20022 v 14.88803 l 3e-4,59.55006 103.066,-7.1e-4 -3e-4,-59.55006 2e-4,-14.88775 z"
+       sodipodi:nodetypes="ccccccc"
        transform="rotate(40)" /></g><path
      id="path2"
      style="display:inline"
