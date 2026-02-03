@@ -869,18 +869,27 @@ scenes:
         description: |
           Canteen;
           Transition to IU is on the 2nd floor.
+      - title: 1st Dorm Canteen
+        ru_title: Столовая общежития 1
+        svg_polygon_id: d-1-note
       - title: Dormitory 2
         ru_title: Общежитие 2
         svg_polygon_id: d-2
         description: |
           Bicycles Storage;
           Transition to IU is on the 2nd floor.
+      - title: Bicycles Storage
+        ru_title: Помещение хранения велосипедов
+        svg_polygon_id: d-2-note
       - title: Dormitory 3
         ru_title: Общежитие 3
         description: |
           Security guards' lockers for prohibited items;
           Transition to IU is on the 2nd floor.
         svg_polygon_id: d-3
+      - title: Security guards' lockers for prohibited items
+        ru_title: Камеры хранения запрещенных вещей
+        svg_polygon_id: d-3-note
       - title: Dormitory 4
         ru_title: Общежитие 4
         svg_polygon_id: d-4
@@ -888,6 +897,11 @@ scenes:
           First-aid post (the 1st floor, Telegram chat: https://t.me/joinchat/CYQdEE7F09Mkbmp_G9r0Bw, hotline: +79655962805, go to room 4-101 in night emergency cases);
           Tennis Tables;
           Transition to IU is on the 2nd floor.
+      - title: First-aid post and Tennis Tables
+        ru_title: Медпункт и Теннисные Столы
+        description: |
+          First-aid post (the 1st floor, Telegram chat: https://t.me/joinchat/CYQdEE7F09Mkbmp_G9r0Bw, hotline: +79655962805, go to room 4-101 in night emergency cases)
+        svg_polygon_id: d-4-note
       - title: Dormitory 5
         ru_title: Общежитие 5
         svg_polygon_id: d-5
@@ -895,6 +909,12 @@ scenes:
           Reception (the 1st floor, 9 a.m. to 7:30 p.m. every day);
           Administration (the 1st floor, 9 a.m. to 6:00 p.m. Monday through Friday);
           Transition to IU is on the 2nd floor.
+      - title: Reception and Dorms Administration
+        ru_title: Ресепшн и Администрация Жилого Комплекса
+        svg_polygon_id: d-5-note
+        description: |
+          Reception (the 1st floor, 9 a.m. to 7:30 p.m. every day)
+          Administration (the 1st floor, 9 a.m. to 6:00 p.m. Monday through Friday)
       - title: Dormitory 6
         ru_title: Общежитие 6
         svg_polygon_id: d-6
@@ -905,6 +925,11 @@ scenes:
         description: |
           Ski equipment pick-up point (room 7-127 next to the security post, 9 a.m. to 9 p.m. every day, website https://portal.university.innopolis.ru/booking/index.php, Telegram https://t.me/sportrentui);
           Transition to IU is on the 3rd floor.
+      - title: Ski Equipment Pick-Up Point
+        ru_title: Прокат Горнолыжного Снаряжения
+        svg_polygon_id: d-7-note
+        description: |
+          Room 7-127 next to the security post, 9 a.m. to 9 p.m. every day, website https://portal.university.innopolis.ru/booking/index.php, Telegram https://t.me/sportrentui.
       - title: Pedestrian Crossing
         ru_title: Пешеходный переход
         svg_polygon_id: p-1
