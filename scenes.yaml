@@ -579,6 +579,9 @@ scenes:
         svg_polygon_id: "469"
       - title: "470"
         svg_polygon_id: "470"
+        people:
+          - Bobrov Evgeny Sergeevich
+          - Бобров Евгений Сергеевич
       - title: "471"
         svg_polygon_id: "471"
         people:
@@ -586,6 +589,9 @@ scenes:
           - Златанов Никола
       - title: "472"
         svg_polygon_id: "472"
+        people:
+          - Venediktova Darina Anatolyevna
+          - Венедиктова Дарина Анатольевна
       - title: "473"
         svg_polygon_id: "473"
       - title: "474"
