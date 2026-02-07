@@ -92,13 +92,15 @@ scenes:
         svg_polygon_id: canteen
         prioritized: true
         description: |
-          Usual working hours: 8:00 — 20:00 (every day)
+          Working hours: 8:00 — 20:00 (every day)
           Telegram channel: https://t.me/matrixfood
       - title: Cava
         svg_polygon_id: cava
         description: |
+          Working hours: 
+            Mon-Fri: 8:00 — 18:00
+            Sat-Sun: 10:30 — 16:00
           Telegram channel: https://t.me/coffeecava
-          Working hours: Mon-Fri: 8:00-18:00; Sat-Sun: 10:30-16:00
       - title: Neuro coffee
         svg_polygon_id: neuro-coffee
       - title: In Joy
@@ -106,7 +108,9 @@ scenes:
       - title: Happiness
         svg_polygon_id: happiness
         description: |
-          Working hours: 11:00 — 21:00
+          Working hours: 
+            Mon-Fri: 10:00 — 00:00
+            Sat-Sun: 11:00 — 21:00
           Telegram channel: https://t.me/happinesshalal
       - title: Garage
         ru_title: Гараж
