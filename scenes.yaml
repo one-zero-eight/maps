@@ -877,11 +877,14 @@ scenes:
         ru_title: Общежитие 1
         svg_polygon_id: d-1
         description: |
-          Canteen;
+          Geek Cafe;
           Transition to IU is on the 2nd floor.
-      - title: 1st Dorm Canteen
-        ru_title: Столовая общежития 1
+      - title: Geek Cafe
+        ru_title: Гик Кафе
         svg_polygon_id: d-1-note
+        description: |
+          Working hours: 10:00 — 22:00 (every day)
+          Telegram channel: https://t.me/geek_cafe
       - title: Dormitory 2
         ru_title: Общежитие 2
         svg_polygon_id: d-2
