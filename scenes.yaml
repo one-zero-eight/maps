@@ -211,7 +211,7 @@ scenes:
         ru_title: Столовая
         svg_polygon_id: canteen-2
         description: |
-          Usual working hours: 11:30 — 15:00 (weekdays)
+          Working hours: 11:30 — 15:00 (weekdays)
           The main canteen is on the first floor.
           Telegram channel: https://t.me/matrixfood
       - title: Garage
@@ -311,7 +311,10 @@ scenes:
         svg_polygon_id: "314"
         room_booking_id: "314"
       - title: "315"
+      - ru_title: Практики
         svg_polygon_id: "315"
+        description: |
+          Practices
       - title: "316"
         svg_polygon_id: "316"
         room_booking_id: "316"
@@ -325,7 +328,7 @@ scenes:
         svg_polygon_id: "319"
         description: |
           Student Affairs Office
-          Usual working hours: 9:00 — 18:00 (Mon — Fri)
+          Working hours: 9:00 — 18:00 (weekdays)
           Telegram bot: https://t.me/StudentAffairs_bot
       - title: "319 Printer"
         svg_polygon_id: printer-319
@@ -402,7 +405,10 @@ scenes:
           - Saduov Ruslan Talgatovich
           - Садуов Руслан Талгатович
       - title: "406"
+        ru_title: Методический отдел
         svg_polygon_id: "406"
+        description: |
+          Methodological department
       - title: "407"
         svg_polygon_id: "407"
         people:
@@ -592,10 +598,15 @@ scenes:
           - Zlatanov Nikola
           - Златанов Никола
       - title: "472"
+        ru_title: Руководители центров и отделов ВО
         svg_polygon_id: "472"
         people:
           - Venediktova Darina Anatolyevna
           - Венедиктова Дарина Анатольевна
+          - Ushakov Dmitry
+          - Ушаков Дмитрий
+        description: |
+          Heads of departments of the Higher Education
       - title: "473"
         svg_polygon_id: "473"
       - title: "474"
@@ -614,7 +625,7 @@ scenes:
         svg_polygon_id: "476"
         description: |
           Department of Education
-          Usual working hours: 9:00 — 18:00 (Mon — Fri)
+          Working hours: 9:00 — 18:00 (weekdays)
           Telegram bot: https://t.me/education_support_bot
 
   - scene_id: "university-floor-5"
@@ -731,12 +742,11 @@ scenes:
         ru_title: Отдел Продаж
         svg_polygon_id: sales-department
         description: |
-          Working hours:
-          09:00 — 20:00 (Mon — Thu)
-          09:00 — 19:00 (Fri)
-          09:00 — 18:00 (Sat, Sun)
-          Lunch break:
-          12:00 — 13:00
+          Working hours: 
+            Mon-Thu: 9:00 — 20:00
+            Fri: 9:00 — 19:00
+            Sat-Sun: 9:00 — 18:00
+          Lunch break: 12:00 — 13:00
       - title: Reception
         ru_title: Ресепшен
         svg_polygon_id: reception
@@ -765,9 +775,9 @@ scenes:
         ru_title: Кафе Инномакс
         svg_polygon_id: innomax
         description: |
-          Working hours:
-          10:00 — 22:00 (Sun — Thu)
-          10:00 — 23:00 (Fri, Sat)
+          Working hours: 
+            Sun-Thu: 10:00 — 22:00
+            Fri-Sat: 10:00 — 23:00
           Telegram channel: https://t.me/InnoMaxcafe
       - title: "221"
         svg_polygon_id: "221"
@@ -877,7 +887,7 @@ scenes:
         ru_title: Общежитие 1
         svg_polygon_id: d-1
         description: |
-          Geek Cafe;
+          Geek Cafe (10:00 — 22:00 (every day), Telegram channel: https://t.me/geek_cafe);
           Transition to IU is on the 2nd floor.
       - title: Geek Cafe
         ru_title: Гик Кафе
@@ -919,15 +929,15 @@ scenes:
         ru_title: Общежитие 5
         svg_polygon_id: d-5
         description: |
-          Reception (the 1st floor, 9 a.m. to 7:30 p.m. every day);
-          Administration (the 1st floor, 9 a.m. to 6:00 p.m. Monday through Friday);
+          Reception (9:00 — 19:30 (every day), the 1st floor);
+          Administration (9:00 — 18:00 (Mon-Fri), the 1st floor);
           Transition to IU is on the 2nd floor.
       - title: Reception and Dorms Administration
         ru_title: Ресепшн и Администрация Жилого Комплекса
         svg_polygon_id: d-5-note
         description: |
-          Reception (the 1st floor, 9 a.m. to 7:30 p.m. every day)
-          Administration (the 1st floor, 9 a.m. to 6:00 p.m. Monday through Friday)
+          Reception (9:00 — 19:30 (every day), the 1st floor);
+          Administration (9:00 — 18:00 (Mon-Fri), the 1st floor)
       - title: Dormitory 6
         ru_title: Общежитие 6
         svg_polygon_id: d-6
@@ -936,13 +946,13 @@ scenes:
         ru_title: Общежитие 7
         svg_polygon_id: d-7
         description: |
-          Ski equipment pick-up point (room 7-127 next to the security post, 9 a.m. to 9 p.m. every day, website https://portal.university.innopolis.ru/booking/index.php, Telegram https://t.me/sportrentui);
+          Ski equipment pick-up point (9:00 — 21:00 (every day), room 7-127 next to the security post, website https://portal.university.innopolis.ru/booking/index.php, Telegram https://t.me/sportrentui);
           Transition to IU is on the 3rd floor.
       - title: Ski Equipment Pick-Up Point
         ru_title: Прокат Горнолыжного Снаряжения
         svg_polygon_id: d-7-note
         description: |
-          Room 7-127 next to the security post, 9 a.m. to 9 p.m. every day, website https://portal.university.innopolis.ru/booking/index.php, Telegram https://t.me/sportrentui.
+          9:00 — 21:00 (every day), room 7-127 next to the security post, website https://portal.university.innopolis.ru/booking/index.php, Telegram https://t.me/sportrentui
       - title: Pedestrian Crossing
         ru_title: Пешеходный переход
         svg_polygon_id: p-1
