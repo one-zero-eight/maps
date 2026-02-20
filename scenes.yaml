@@ -120,8 +120,6 @@ scenes:
         ru_title: Читалка
         svg_polygon_id: reading-hall-1
         prioritized: true
-      - title: First floor printer
-        svg_polygon_id: printer-1f
       - title: "Main Hall"
         svg_polygon_id: "main-hall"
       - title: "Atrium"
@@ -681,6 +679,8 @@ scenes:
         ru_title: "ВК Зона"
         svg_polygon_id: "vk"
         description: "Coworking"
+      - title: Fifth floor printer
+        svg_polygon_id: printer-5f
 
   - scene_id: "university-floor-0"
     svg_file: "university-floor-0.svg"
