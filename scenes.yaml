@@ -196,6 +196,26 @@ scenes:
           Schedule: Tue, Wed 14:00-18:00; Fri 13:00-16:45
           Books list: https://portal.university.innopolis.ru/reading_hall
           Telegram channel: https://t.me/+H0MsiY00PoI4Yzcy
+      - title: "Library"
+        svg_polygon_id: "library-mark"
+        description: |
+          Schedule: Tue, Wed 14:00-18:00; Fri 13:00-16:45
+          Books list: https://portal.university.innopolis.ru/reading_hall
+          Telegram channel: https://t.me/+H0MsiY00PoI4Yzcy
+      - title: "BookCrossing"
+        ru_title: БукКроссинг
+        svg_polygon_id: "bookcrossing"
+        description: |
+          Bring the books you want to share to office 433, get a sticker and leave here;
+          You can borrow any book from there, but don't forget to return it after reading;
+          Here you can find review cards and put them in the books you have read for future readers!
+      - title: "BookCrossing"
+        ru_title: БукКроссинг
+        svg_polygon_id: "bc-mark"
+        description: |
+          Bring the books you want to share to office 433, get a sticker and leave here;
+          You can borrow any book from there, but don't forget to return it after reading;
+          Here you can find review cards and put them in the books you have read for future readers!
       - title: "211"
         svg_polygon_id: "211"
         description: "Personnel and Corporate Culture Development Center"
