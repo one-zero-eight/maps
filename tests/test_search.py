@@ -12,7 +12,7 @@ cases = [
     # Exact match (simple case, without postfixes
     ("305", [("university-floor-3", "305")]),
     ("404", [("university-floor-4", "404")]),
-    ("3.2", [("university-floor-3", "3.2")]),
+    ("3.2", [("university-floor-3", "3.2"), ("sport-complex", "3.2")]),
     # Postfixes (a, b, c)
     ("504a", [("university-floor-5", "504a")]),
     ("309a", [("university-floor-3", "309a")]),
