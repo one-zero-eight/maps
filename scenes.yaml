@@ -19,6 +19,9 @@ scenes:
         color: "#ffcb7d"
       - legend_id: "Medical point — 1st floor of 4th campus"
     areas:
+      - title: "Dorms 1-5"
+        svg_polygon_id: "dorms"
+        scene_pointer: "campus"
       - title: "1.1"
         svg_polygon_id: "1.1"
         room_booking_id: "1.1"

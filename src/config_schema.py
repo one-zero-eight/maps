@@ -46,6 +46,8 @@ class Area(SettingBaseModel):
     "Priority for multi-floor areas"
     room_booking_id: str | None = None
     "ID of the room in Room Booking API (if any)"
+    scene_pointer: str | None = None
+    "Maps scene name with which the area is associated"
 
 
 class Scene(SettingBaseModel):
