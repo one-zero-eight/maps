@@ -20,7 +20,7 @@ scenes:
       - legend_id: "Medical point — 1st floor of 4th campus"
     areas:
       - title: "Dorms 1-5"
-        svg_polygon_id: "dorms"
+        svg_polygon_id: "dorms-1"
         scene_pointer: "campus"
       - title: "1.1"
         svg_polygon_id: "1.1"
@@ -147,6 +147,9 @@ scenes:
       - legend_id: "Personnel and Corporate Culture Development Center"
         color: "#dd7168"
     areas:
+      - title: "Dorms 6-7"
+        svg_polygon_id: "dorms-6"
+        scene_pointer: "campus"
       - title: "105"
         svg_polygon_id: "105"
         room_booking_id: "105"
