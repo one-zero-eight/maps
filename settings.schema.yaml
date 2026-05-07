@@ -9,6 +9,15 @@ $defs:
         description: URL of the Accounts API
         title: Api Url
         type: string
+      api_jwt_token:
+        anyOf:
+        - format: password
+          type: string
+          writeOnly: true
+        - type: 'null'
+        default: null
+        description: JWT token for accessing the Accounts API as a service
+        title: Api Jwt Token
     title: Accounts
     type: object
   Environment:
@@ -21,9 +30,11 @@ additionalProperties: false
 description: Settings for the application.
 properties:
   $schema:
+    anyOf:
+    - type: string
+    - type: 'null'
     default: null
     title: $Schema
-    type: string
   environment:
     $ref: '#/$defs/Environment'
     default: development
@@ -56,6 +67,7 @@ properties:
     $ref: '#/$defs/Accounts'
     default:
       api_url: https://api.innohassle.ru/accounts/v0
+      api_jwt_token: null
     description: InNoHassle-Accounts integration settings
 title: Settings
 type: object

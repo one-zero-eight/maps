@@ -153,7 +153,7 @@ class InNoHassleAccounts:
 if settings.accounts:
     inh_accounts: InNoHassleAccounts = InNoHassleAccounts(
         api_url=settings.accounts.api_url,
-        api_jwt_token=settings.accounts.api_jwt_token.get_secret_value(),
+        api_jwt_token=settings.accounts.api_jwt_token.get_secret_value() if settings.accounts.api_jwt_token else None,
     )
 else:
     raise ImportError("InNoHassle Accounts is not configured in ./settings.yaml")

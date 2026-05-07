@@ -2,7 +2,7 @@ from enum import StrEnum
 from pathlib import Path
 
 import yaml
-from pydantic import BaseModel, ConfigDict, Field, model_validator
+from pydantic import BaseModel, ConfigDict, Field, SecretStr, model_validator
 
 
 class Environment(StrEnum):
@@ -68,12 +68,14 @@ class Accounts(SettingBaseModel):
 
     api_url: str = "https://api.innohassle.ru/accounts/v0"
     "URL of the Accounts API"
+    api_jwt_token: SecretStr | None = None
+    "JWT token for accessing the Accounts API as a service"
 
 
 class Settings(SettingBaseModel):
     """Settings for the application."""
 
-    schema_: str = Field(None, alias="$schema")
+    schema_: str | None = Field(None, alias="$schema")
     environment: Environment = Environment.DEVELOPMENT
     "App environment flag"
     app_root_path: str = ""
